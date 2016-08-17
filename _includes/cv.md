@@ -135,7 +135,7 @@
     <td>
         Hausen D., Tabard A., von Thermann A., Holzner K., and Butz A. (2013)
         <strong><a href='http://doi.acm.org/10.1145/2540930.2540941'>Evaluating Peripheral Interaction</a></strong>
-        In <i>Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction</i>. (pp. 21-28). New York, NY, USA, ACM. <br/> [Acceptance rate 25%, 45/178].<br>
+        In <i>Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction</i>. (pp. 21-28). New York, NY, USA, ACM.<br/> [Acceptance rate 25%, 45/178].<br>
         [CP3] [<a href='http://doi.acm.org/10.1145/2540930.2540941' target='_blank'>pdf</a>]  [<a href='10.1145/2540930.2540941' target='_blank'>doi</a>] <br>
         
     </td>
@@ -506,20 +506,6 @@
     </tr>
     
 
-</table>
-
-
-<h3> <a class="smaller" name="Teaching Experience"><i class="fa fa-chevron-right smaller"></i></a> Teaching Experience </h3>
-
-<table class="table table-hover">
-<tr>
-  <td class='col-md-1'>S2016</td>
-  <td><strong>Distributed Systems</strong> (CMU 15-440/640), TA</td>
-</tr>
-<tr>
-  <td class='col-md-1'>S2013</td>
-  <td><strong>Software Design and Data Structures</strong> (VT CS 2114), TA</td>
-</tr>
 </table>
 
 

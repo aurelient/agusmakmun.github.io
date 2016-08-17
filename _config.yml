@@ -9,6 +9,8 @@ affiliation:
 # disqus_shortname: stackproblems
 # google_analytics: UA-XXXXXXXX-Y
 
+exclude: [build, templates, requirements.txt, README.md, Makefile, generate.py, cv.yaml, Gemfile, LICENSE*]
+
 enableTags: true
 tagarray: []
 
