@@ -1,0 +1,200 @@
+- date: Jun. 2016
+  desc: AC for NordiCHI 2016
+  display: y
+- date: May. 2016
+  desc: FUI Grant accepted, on Activity Based Computing in teaching settings
+  display: y
+- date: Feb. 2016
+  desc: Two posters presented at <a href="https://cscw.acm.org/2016/">CSCW 2016</a> by Adam Rule and Karen Boyd, with Jim Hollan.
+  display: y
+- date: Jan. - Apr. 2016
+  desc: Teaching UX Design in the <a href="https://www.fun-mooc.fr/courses/ENSDeLyon/14002S02/session02/about">French MOOC on Information Architecture </a>.
+  display: y
+- date: July. 2015
+  desc: Jury member for the final year projects of <a href="http://dsaa.designvillefontaine.com/">DSAA Villefontaine</a>.
+  display: y
+- date: Jun. 2015
+  desc: 'Paper with Adam Rule, Karen Boyd and James Hollan accepted at <a href="http://cognitivesciencesociety.org/conference2015/index.html">CogSci 2015</a> - Restoring the Context of Interrupted Work with Desktop Thumbnails.'
+  display: y
+- date: Jun. 2015
+  desc: AC for IHM 2015
+  display: n
+- date: Jun. 2015
+  desc: AC for AutoUI 2015
+  display: n
+- date: May 2015
+  desc: CNRS PEPS Grant accepted to work on visualizations to explore physical and digital library collections.
+  display: y
+- date: May 2015
+  desc: Taught the lecture on UX in the <a href="https://www.france-universite-numerique-mooc.fr/courses/ENSDeLyon/14002/session01/about">French MOOC on Information Architecture </a>.
+  display: n
+- date: Spring 2015
+  desc: Grant on Supporting Digital Skill Development submitted to ANR, with Yannick Prié and Sylvain Malacria
+  display: n
+- date: Mar. 2015
+  desc: Joining the international relations committee of the lab.
+  display: n
+- date: Fall 2015
+  desc: Contributed to the first book in French <a href="http://www.deboecksuperieur.com/titres/132647/9782804191405-architecture-de-l-information.html">on Information Architecture</a>.
+  display: n
+- date: Sep. 2014
+  desc: Organizing <a href="http://www.umix.fr">UmiX</a> with the Information Architecture Masters of Lyon, the theme is redesigning physical and digital libraries.
+  display: n
+- date: Sep. 2014
+  desc: Participating to the <a href="http://www.dagstuhl.de/14362">Dagstuhl Seminar, Augmenting Human Memory, Capture and Recall in the Era of Lifelogging</a>.
+  display: n
+- date: Sep. 2014
+  desc: Invited to present at <a alt="Vivre parmi les écrans" href="http://vivreparmilesecrans.wix.com/vivreparmilesecrans">Living among screens</a>, an international philosophy colloquium organized by Mauro Carbone.
+  display: n
+- date: Aug. 2014
+  desc: 'Paper with <a href="http://www.medien.ifi.lmu.de/team/simon.stusak/">Simon Stusak</a> accepted at Infovis 2014: Activity Sculptures - Exploring the Impact of Physical Visualizations on Running Activity'
+  display: n
+- date: Aug. 2014
+  desc: 'Position paper with <a href="http://liris.cnrs.fr/amaury.belin">Amaury Belin</a> and <a href="http://pagesperso.lina.univ-nantes.fr/~prie-y/">Yannick Prié</a> accepted at DI 2014: Supporting the Development of Digital Skills'
+  display: n
+- date: Jun. 2014
+  desc: AC for NordiCHI 2014
+  display: n
+- date: Feb. 2014
+  desc: 'Doris Hausen presented our paper on <a href="http://www.tabard.fr/publications/hausen2014tei.pdf">Evaluating peripheral interaction</a>'
+  display: n
+- date: Nov. 2013
+  desc: Part of the WiP PC for TEI-2014
+  display: n
+- date: Oct. 2013
+  desc: 2 ANR proposals submitted; Mar. 2014
+  desc: one selected
+  display: n
+- date: Oct. 2013
+  desc: Part of the workshop jury for CHI-2014
+  display: n
+- date: Oct. 2013
+  desc: Submitted a Google Research Award Proposal with Jim Hollan and Zhuowen Tu from UCSD; not selected but we're still working on the project
+  display: n
+- date: Oct. 2013
+  desc: Presented our note on <a href="http://www.tabard.fr/publications/ITS2013.pdf">object and occlusion management on tabletops</a> at ITS'13
+  display: n
+- date: Aug. 2013
+  desc: Submitted a note to CHI'14 with Alexander Wiethoff; not in :(
+  display: n
+# - date: Sep. 2013
+#   desc: 'Presented <a href="/publications/TIDE_Interact_2013_v11.pdf">TIDE: Lightweight Device Composition for Enhancing Tabletop Environments with Smartphone Applications</a> at INTERACT 2013. The paper is based on Léo Sicard's thesis advised by me and Jakob E. Bardram on an idea from Juan David Hincapié-Ramos.'
+#   display: n
+- date: Sep. 2013
+  desc: Started in Lyon as Assistant Professor
+  display: n
+- date: Aug. 2013
+  desc: Submitted paper to TEI'13 with Doris Hausen and Andreas Butz
+  display: n
+- date: Jun. 2013
+  desc: Consulting on Active Reading and digital pen.
+  display: n
+- date: May 2013
+  desc: 'Co-organized a workshop at CHI 2013, <a href="http://chi2013time.wordpress.com/">Avec le Temps! Time, Tempo, and Turns in Human-Computer Interaction</a> with John Thomas, Pan Yue, Thomas Erickson, Eli Blevis and Catherine Letondal'
+  display: n
+- date: Jan. 2013
+  desc: Part of the Video showcase jury for CHI-2013
+  display: n
+- date: Nov. 2012
+  desc: Part of the workshop jury for CHI-2013
+  display: n
+- date: Nov. 2012
+  desc: Presented <a href="http://www.itu.dk/pit/?n=Projects.Devicecomposition">TIDE</a> at the <a href="http://fitg12.lille.inria.fr/">FITG</a> in Lille (<a href="http://www.youtube.com/watch?v=AAto_tU33SM">video</a>)
+  display: n
+- date: Oct. 2012
+  desc: Sonja Rümelin and Gilbert Beyer will present "Towards a Design Space for Non-Flat Interactive Displays" a <a href="publications/ITS_workshop_non-flat.pdf">position paper</a> co-authored with Fabian Hennecke, myself and Andreas Butz at the ITS'12 workshop Beyond Flat Displays
+  display: n
+- date: Sept. 2012
+  desc: Projects from ITU on digital pens for tabletops and device composition ready for submission.
+  display: n
+- date: Sept. 2012
+  desc: Paper on occlusion and object management on tabletops submitted.
+  display: n
+- date: Sept. 2012
+  desc: Wrapped up teaching <a href="http://www.medien.ifi.lmu.de/lehre/ss12/id/">Interaction Design</a> with <a href="http://www.medien.ifi.lmu.de/team/alexander.wiethoff/">A. Wiethoff</a> and <a href="http://www.medien.ifi.lmu.de/lehre/ss12/mmi1/">Introduction to HCI</a> with <a href="http://floe.butterbrot.org/matrix/">F. Echtler</a>
+  display: n
+- date: Spring 2012
+  desc: AC for NordiCHI 2012.
+  display: n
+- date: Apr. 2012
+  desc: Ebbe S. Andersen our bio-partner from the <a href="http://biodesign.au.dk/">Biomolecular Design Lab</a> in Aarhus is presenting the eLabBench at <a href="http://www.cs.duke.edu/FNANO/">FNANO'12</a>, the 9th Annual Conference on the Foundations of Nanoscience.
+  display: n
+- date: Apr. 2012
+  desc: Started working at the <a href="http://www.medien.ifi.lmu.de/">Media Informatics/HCI group</a> of <a href="http://www.uni-muenchen.de/index.html">LMU</a> in Munich.
+  display: n
+- date: March 2012
+  desc: Left the <a href='http://www1.itu.dk/sw5211.asp'>IT University of Copenhagen</a> and <a href='http://pit.itu.dk'>the pIT lab</a> after more than two amazing years.
+  display: n
+- date: Jan. 2012
+  desc: Presented the eLabBench project to <a href="http://arkitema.com/">Arkitema architects</a>
+  display: n
+- date: <del>Jan. 2012
+  desc: We submitted our paper on <a href="http://www.noxdroid.org">NoxDroid</a> to CHI WiP (<a href="publications/Noxdroid.pdf">paper</a>, <a href="publications/Noxdroid-poster.pdf">poster</a>).</del> rejected :(
+  display: n
+- date: Jan. 2012
+  desc: We will present <a href="publications/elabbench-deployment.pdf">our paper</a> on the deployment of the eLabBench at <a href="http://chi2012.acm.org/">CHI 2012</a>.
+  display: n
+- date: Dec. 2011
+  desc: 'Tim Kindberg work on augmented crowds was published as an official ITU technical report with the whole team as co-authors: <a href="publications/ITU.TR-2011-146.pdf">Mesh Mobs. Virtually augmented crowds (pdf)</a>.'
+  display: n
+- date: Nov. 2011
+  desc: Our paper on the <a href="/publications/elabbench-its2011.pdf">eLabBench</a>, with Juan David Hincapié Ramos, Morten Esbensen and Jakob Bardram received the Best Paper Award at ITS 2011!
+  display: n
+- date: Oct. 2011
+  desc: We showcased the work we do in the pITlab during Copenhagen's Culture night and got awesome participation, <a href="http://www.itu.dk/billedarkiv/111014_Kulturnat/index.htm"> pictures here</a>.
+  display: n
+- date: Sept. 2011
+  desc: 'Juan and I presented our paper written with Jakob Bardram at Ubicomp: <a href="/publications/rabbit-ubicomp2011.pdf">Mediated Tabletop Interaction in the Biology Lab'
+  desc: Exploring the Design Space of The Rabbit</a>.
+  display: n
+- date: Sept. 2011
+  desc: Our work on the eLabBench discussed in <a href="http://www.version2.dk/artikel/digital-revolution-i-laboratoriet-46-touch-skaerm-med-rfid-laeser-og-objektsporing-goer">Version 2</a>, the danish IT magazine. More coverage in <a href="http://videnskab.dk/teknologi/se-fremtidens-vilde-laboratorium">videnskab.dk</a> and <a href="http://science.au.dk/en/news-and-events/news-article/artikel/verdens-foerste-digitale-arbejdsbord-taget-i-brug/">Aarhus University</a> science portal. Now also in <a href="http://stiften.dk/viden/au-har-verdens-foerste-digitale-laboratoriebord">Aarhus Stiftstidende</a> (regional newspaper).
+  display: n
+- date: May 2011
+  desc: <a name="#gridorbit" href="publications/GridOrbit-chi2011.pdf">GridOrbit – An Awareness System Supporting the Adoption of a Volunteer Computing Infrastructure</a>, with Juan D. Hincapié Ramos and Jakob Bardram presented to CHI2011, we got an honorable mention!
+  display: n
+- date: Spring 2011
+  desc: Proceedings co-chair for CHI'11 with <a href="http://robostar.csail.mit.edu/emax/">Max Van Kleek</a> and <a href="http://nirmalpatel.com/">Nirmal Patel</a>
+  display: n
+- date: Our work on hybrid notebooks for the classroom was accepted at Interact 2011
+  desc: with <a href="http://www.malacria.fr/">Sylvain Malacria</a>, <a href="http://www.lita.univ-metz.fr/~pietrzak/">Thomas Pietzak</a> and <a href="http://www.telecom-paristech.fr/~elc">Eric Lecolinet</a>.
+  display: n
+- date: Fall 2010
+  desc: Teaching Pervasive Computing course at the ITU with Jakob Bardam
+  display: n
+- date: Fall 2010
+  desc: AC for CSCW'11
+  display: n
+- date: Sept 2010
+  desc: Ubicomp Demos 2010 co-chair.
+  display: n
+- date: Sept 2010
+  desc: The Mini-Grid project was presented to the Danish minister of research during her visit at ITU by J. Badram.
+  display: n
+- date: July 2010
+  desc: We presented our DIS 2010 Note in Århus, <a>Designing for the Invisible — Techniques for User-Centered Design of Infrastructure Awareness Systems</a>, with Juan David Hincapié Ramos and Jakob Badram.
+  display: n
+- date: 2010
+  desc: Proceedings co-chair for CHI'10 with <a href="http://research.microsoft.com/en-us/um/people/nath/">Nathalie Riche</a>
+  display: n
+- date: Nov. 2009
+  desc: Started working as a postdoc in the PITlab, at the IT University of Copenhagen.
+  display: n
+- date: November 2009
+  desc: Thesis defended. &nbsp;<a href="thesis">Supporting lightweight reflection on familiar information</a>
+  display: n
+- date: 27 Novembre 2009
+  desc: Soutenance de thèse au LRI.
+  display: n
+- date: June 2009
+  desc: Co-organizing the Parisian CHI video showcase, with <a href="http://www.lri.fr/~chevalie/">Fanny Chevalier</a> and <a href="http://www.lri.fr/~bau"> Olivier Bau</a>.
+  display: n
+- date: March-September 2009
+  desc: Post-doc at Telecom Paris Tech with <a href="http://www.infres.enst.fr/~elc/"> E. Lecolinet</a>
+  display: n
+- date: April 2009
+  desc: Co-organizing <a href="http://temporal.csail.mit.edu"> Interacting with temporal data</a> workshop at <a href="http://www.chi2009.org">CHI 2009</a>.
+  display: n
+- date: 2005 to 2009
+  desc: Thesis at <a href="http://www.lri.fr/insitu">in|situ|</a> with <a href="http://www.lri.fr/~mackay">Wendy Mackay</a>, INRIA and Universit&eacute; Paris Sud.
+  display: n

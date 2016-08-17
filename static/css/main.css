@@ -27,10 +27,10 @@ span.time, span.categories {
 }
 
 h1 {
-    font-weight: normal;
+    /*font-weight: normal;
     color: #696969;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 25px;*/
 }
 
 h2 {
@@ -38,11 +38,11 @@ h2 {
     margin-bottom: 5px;
     color: #666666;
 }
-        
+
 h3 {
-    font-weight: normal;
-    margin-bottom: 5px;
-    color: #666666;
+    font-weight: inherit;
+    /*margin-bottom: 5px;
+    color: #666666;*/
 }
 
 a, a:link, a:active {
@@ -55,15 +55,34 @@ a:hover {
     text-decoration: underline;
 }
 
+ul {
+    list-style-type: '\00BB \0020';
+  }
+
+li.collapse.in {
+  display: list-item;
+  color: gray;
+}
+
 /**
  * /////////////////
  * Container element
  * /////////////////
  */
-div#container {
+.container {
+    margin-top: 3em;
+    /*max-width: 700px;*/
+}
+
+.minor {
+  font-size: smaller;
+  line-height: normal;
+}
+
+/*div#container {
     width: 700px;
     margin: auto;
-}
+}*/
 
 /**
  * //////////////////////////////////
@@ -74,7 +93,7 @@ div.right {
     width: 500px;
     float: left;
 }
-           
+
 div.content {
     border-top: 1px solid #E6E6E6;
     margin-top: 5px;
@@ -136,28 +155,15 @@ div.right .post ul {
 /**
  * Left column aka nav bar formatting
  */
-div.col-sm-3 {
-        margin-top: 100px;
-        font-size: 11px;
-        color: #666;
-}
-
-div.col-sm-3 strong {
-        font-size: 16px;
-        color: #4A4A4A;
-        font-weight: normal;
-}
-
-div.col-sm-3 div#about {
-        margin-top: 10px;
-		color: #8C8C8C;
-}
-
-div.col-sm-3 img#about {
+img#about {
     -webkit-border-radius: 150px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.nav-left ul {
+  padding-left: 15px;
 }
 
 .PageNavigation {
@@ -185,15 +191,18 @@ div.col-sm-3 img#about {
     display: block;
     margin: 10px 0;
 }
+
 .social ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 .social ul li {
     display: inline-block;
     margin: 0 5px;
 }
+
 .social li a {
     font-size: 16px;
 }
@@ -205,11 +214,19 @@ div.col-sm-3 img#about {
 }
 .post-content img, .content img {max-width: 100%}
 
+
+
+
+a.btn {
+  color: #fff;
+}
+
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
-    .fixed-condition {
-        position: fixed;
-        max-width: 255px;
+    .nav-left {
+        /*position: fixed;*/
+        max-width: 215px;
     }
 }
 @media (max-width: 768px) {

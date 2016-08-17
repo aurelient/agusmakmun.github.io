@@ -1,0 +1,15 @@
+~< extends "section.tex" >~
+
+~< block body >~
+\renewcommand*{\bibfont}{\small}
+
+~< for p in items.categories >~
+\subsection{<<p.heading>>}
+\begin{refsection}[publications/<<p.file>>]
+  \nocite{*}
+  \printbibliography[heading=none,prefixnumbers=<<p.prefix>>]
+\end{refsection}
+
+~< endfor >~
+
+~< endblock body >~

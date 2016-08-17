@@ -3,50 +3,43 @@ layout: default
 ---
 
 <div id="home">
-    <h1>Stack Problems</h1>
-    <hr />
-    <ol class="posts">
-    {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
-    {% endfor %}
-    </ol>
+    <!-- <h1>Aurélien Tabard</h1> -->
+    <p>
+      My research focuses on one consequence of the digital revolution: the pervasiveness of digital traces we leave behind us.
+      I study how we relate to these traces, how we can control them but also how they can enrich our lives. Ongoing projects
+      include: leveraging traces to develop and improve our digital skills by reflecting on past experiences,
+      enabling users to better understand the traces they produce and developing tools to better control how traces are used.
+    </p>
 
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li>
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
+    <p class="minor">
+      In the past years, I have explored these questions in the context of Biology laboratories, studying how researchers
+      capture, re-visit and reflect on information (see my <a href="thesis/Tabard-phd-dissertation.pdf">dissertation</a>).
+    </p>
 
-      <li><a href="/">First</a></li>
+    <div id="ongoing">
+      <h3>Ongoing Projects</h3>
+      <ul>
+        <li> <a href="http://activityhistory.github.io/">Capturing and visualizing activity</a> to mitigate interruptions with <a href="http://adamrule.com/">A. Rule</a> and <a href="http://hci.ucsd.edu/hollan/">J. Hollan</a>.</li>
+        <li> Understanding data physicalization with <a href="http://www.medien.ifi.lmu.de/team/simon.stusak/">Simon Stusak</a> from LMU.</li>
+        <!--li>TUIsla: wireless and battery-less phidgets + rapid fabrication.</li-->
+        <li> Novel visualizations to explore physical and digital library collections, with <a href="http://www.enssib.fr/enssiblab/">the French National Library School</a> and <a href="http://biin.fr/">biin</a>.</li>
+      </ul>
+    </div>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active">
-             <a>{{ page }}<span class="sr-only">(current)</span></a>
-          </li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li>
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-    {% endif %}
+    <!-- <hr /> -->
+    <div id="news">
+      <h3>News</h3>
+      <div class="panel">
+      <ul>
+        {% for info in site.data.news %}
+          {% if info.display == 'y' %}
+          <li>{{ info.date }} - {{ info.desc }}</li>
+          {% else %}
+          <li class="nodisplay collapse"> {{ info.date }} - {{ info.desc }}</li>
+          {% endif %}
+        {% endfor %}
+          <li style="list-style-type: none;"><span class="minor"><a data-toggle="collapse" href=".nodisplay">show all news</a></span></li>
+      </ul>
+      </div>
+    </div>
 </div><!-- end #home -->
