@@ -1,8 +1,17 @@
+- date: Oct. 2016
+  desc: Co-organizing the workshop <a href="http://livvil.github.io/workshop/">LIVVIL – Logging Interactive Visualizations and Visualizing Interaction Logs</a> at VIS'2016 with <a href="http://romain.vuillemot.net/">Romain Vuillemot</a>, <a href="http://jyby.eu/">Jeremy Boy</a>, <a href="http://charles.perin.free.fr/">Charles Perin</a> and <a href="http://www.aviz.fr/~fekete/">Jean-Daniel Fekete</a>.
+  display: y
+# - date: Sept. 2016
+#   desc: Two articles accepted at <a href="http://ihm2016.afihm.org/">IHM'16</a>
+#   display: y
+- date: Sep. 2016
+  desc: <a href="http://www.tonglili.net/">Lili Tong</a> will be presenting our paper with Audrey Serna at <a href="http://mobilehci.acm.org/2016/">Mobile HCI</a>, <a href="data/publications/MobileHCI16.pdf">It's Not How You Stand, It's How You Move&#58; F-formations and Collaboration Dynamics in a Mobile Learning Game</a>.
+  display: y
 - date: Jun. 2016
-  desc: AC for NordiCHI 2016
+  desc: AC for NordiCHI 2016.
   display: y
 - date: May. 2016
-  desc: FUI Grant accepted, on Activity Based Computing in teaching settings
+  desc: FUI Grant accepted, on Activity Based Computing in teaching settings.
   display: y
 - date: Feb. 2016
   desc: Two posters presented at <a href="https://cscw.acm.org/2016/">CSCW 2016</a> by Adam Rule and Karen Boyd, with Jim Hollan.

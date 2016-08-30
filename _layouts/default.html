@@ -124,7 +124,10 @@
                     <li> <a href="/">Home</a> </li>
                     <!-- &nbsp;&raquo; -->
                 {% for i in site.urls %}
-                    <li> <a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+                    <li>
+                      <a class="about" href="{{ i.url }}">{{ i.text }}</a>
+                      {% if i.url-2 %}(<a class="smaller about" href="{{ i.url-2 }}">{{ i.text-2 }}</a>){% endif %}
+                    </li>
                 {% endfor %}
                 </ul>
               </div>

@@ -38,10 +38,10 @@ share:
 urls:
     - text: CV
       url: /cv/
-    - text: Projects
-      url: /projects/
-    - text: Publications
-      url: /cv/#Publications
+      text-2: "#publications"
+      url-2: /cv/#Publications
+    # - text: Projects
+    #   url: /projects/
     - text: Cours
       url: /cours/
     - text: Openings
