@@ -7,7 +7,7 @@
   role: Responsable
   display: y
   hours: 30
-  link: /2016/mif02/
+  link: 2016/mif02/
   # details
 
 - year: 2016-2017
@@ -18,7 +18,7 @@
   role: Responsable
   display: y
   hours: 30
-  link: /2016/cci/gl
+  link: 2016/cci/gl
   details:
     - Contexte, méthodes et processus + Processus Unifié
     - Introduction à UML
