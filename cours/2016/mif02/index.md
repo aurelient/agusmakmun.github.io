@@ -17,18 +17,20 @@ permalink: /cours/2016/mif02/
 ## Cours
 
 - [Contexte, méthodes et processus](/courses/2015/mif17/2015/MIF17-C1-ProcessusMethodes.pdf) - 13/09
-- [Outils de build, gestion de dépendance]() 14/09
+- [Outils de build, gestion de dépendance](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:maven-forge-ic.pdf) 14/09
 - [Cas d'Utilisation textuels](/courses/2015/mif17/2015/UML-CU.pdf) - 15/09
-- [Intervention d'un professionel sur la gestion de projet en entreprise]() - 16/09
-- [Intervention d'un professionel sur les tests et l'intégration continue]() - 19/09
-- [Méthodes Agiles]() - 20/09
-- [Design Patterns](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-patterns.pdf) (L. Médini) - 21/09
+- [Méthodes Agiles](/courses/2016/mif02/Agile.pdf) - 16/09
+- [Intervention de S.-D. Gouraud (Thales) sur les tests](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:sdgouraud-2014-10-24.pdf) - 19/09
+- [Design Patterns](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-patterns.pdf) (L. Médini) - 20/09
+- [Intervention de J.R. Meunier sur la gestion de projet en entreprise]() - 21/09
 - [Méta-programmation](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-metaprogrammation.pdf) (L. Médini) - 23/09
 
 ## TPs
 
-- [TP Remise en route Java]()
-- [TP Ré-ingénierie (design patterns)](tp-pattern.html)
+- [TP Remise en route Java](tp-java.html)
+- [TP Maven-Mercurial-Forge](tp-setup.html) - (en cours de révision [archive](http://liris.cnrs.fr/ecoquery/dokuwiki/doku.php?id=enseignement:tp:forge-maven))
+- [TP Ré-ingénierie (design patterns)](tp-pattern.html) (en cours de révision)
+- [TP Test](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:multimif:tp_multimif_junit.pdf)
 - [TP Méta-programmation (Programmation Orientée Aspects)](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/TP_aspects.html)
 
 ## TDs
@@ -36,8 +38,8 @@ Supports distribués en début de TD.
 
 <!-- - (">Diagrammes statiques</a> (3h)</li>
 - (">Diagrammes Dynamiques (séquences + état-transition)</a> (2h)</li> -->
-- Cas d'utilisation textuels (2h)
-
+- [Cas d'utilisation textuels](/courses/2016/mif02/tdUseCases.pdf)
+- TD Paper4Scrum [Introduction au TD](/courses/2016/mif02/tdAgile.pdf), [Support de TD](/courses/2016/mif02/ExerciceAgile.pdf).
 
 ## Modalités d'évalution
 

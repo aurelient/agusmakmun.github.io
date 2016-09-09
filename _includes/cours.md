@@ -17,7 +17,7 @@
 {% endif %}
 {% assign past_year = current_year %}
 
+{% endfor %}
+
 ## Pre-2016
 [check my archive here](http://tabard.fr/courses/)
-
-{% endfor %}

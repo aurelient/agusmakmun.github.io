@@ -1,0 +1,131 @@
+---
+layout: page
+title: Mif02 - TP Remise en route JAVA
+permalink: /cours/2016/mif02/tp-java.html
+---
+
+<h2>Objectif</h2>
+<p>Il vous est demand&eacute; de mettre en place quelques classes pour vous remettre en t&ecirc;te les grands
+principes de la programmation orient&eacute;e objet : messages et collaboration entre objets, attributs et m&eacute;thodes, constructeurs, h&eacute;ritage,
+etc. Pour cela, vous manipulerez des poneys qui font la course.</p>
+
+<font color=#ff0000>
+<p>Votre travail servira de base aux TPs suivants qui feront l'objet d'une note globale.<br/>
+  Le travail peut se faire en monome ou binome.</p>
+</font>
+
+<h2>Environnement</h2>
+
+<p>Pour d&eacute;velopper en Java durant le TP, vous pouvez choisir d'utiliser :
+<ul>
+<li> Un environnement de d&eacute;veloppement int&eacute;gr&eacute; (comme Eclipse ou Netbeans) qui permet de compiler, de g&eacute;n&eacute;rer un projet, de d&eacute;bugger et d'ex&eacute;cuter </li>
+<li> N'importe quel &eacute;diteur de texte avec coloration syntaxique, et effectuer la compilation et l'ex&eacute;cution en ligne de commande (<i>javac</i>, <i>java</i>) </li>
+</ul>
+</p>
+
+
+<h2>Travail demand&eacute; </h2>
+
+<p>On vous fournit une archive <a href="./poneymon.zip">poneymon.zip</a> (merci à <a href="http://dotsmarc.tumblr.com/">@dotsMarc</a>pour les assets), contenant deux classes :</p>
+
+<ul color=#ff0000>
+  <li>Poney : une classe gérant un Poney et ses diverses m&eacute;thodes (avancer, tourner, ...)</li>
+  <li>Poneymon : classe principal, qui gère les données et l'affiche des Poneys.</li>
+</ul>
+<p>D&eacute;compressez l'archive dans un dossier sur votre compte. Explorez le code source. Compilez et lancez le programme principal <i>Poneymon</i>.
+</p>
+
+<p>Consultez la documentation Java (<a href="http://docs.oracle.com/javase/8/docs/api/">docs.oracle.com/javase/8/docs/api</a>) et celle de <a href=""https://processing.org/reference/>Processing</a> (la bibliothèque graphique utilisée).</p>
+
+
+<h3>Am&eacute;lioration du programme</h3>
+
+<p>Modifiez la classe Poney pour:</p>
+<ul>
+  <li>que la vitesse du Poney change aléatoirement à chaque tour,</li>
+</ul>
+
+<p>Ajoutez quelques m&eacute;thodes à Poney et Poneymon pour :</p>
+<ul>
+  <li>qu'une partie consiste en 5 tours de pistes,</li>
+  <li>que le jeu annonce le Poney gagnant.</li>
+</ul>
+
+<p>Testez.</p>
+
+<h3>Des supers Poneys</h3>
+<p>Cr&eacute;ez une sous-classe de Poney, appell&eacute;e PoneyAmeliore, qui a pour caract&eacute;ristiques : </p>
+<ul>
+  <li>qu'en cas d'appui sur une touche associée a un Poney ce dernier passe en mode NianPoney qui double sa vitesse jusqu'à la fin du tour (voir la gestion des évènements clavier de Processing <a href="http://processing.github.io/processing-javadocs/core/processing/core/PApplet.html#keyTyped--">ici</a> et <a href="https://processing.org/reference/keyTyped_.html">là</a>, et la méthode <code>keyTyped()</code> de PApplet),</li>
+  <li>qu'en mode NianPoney l'image représentant le Poney soit différente (chargez le gif <code>pony-couleur-rainbow.gif</code> plutôt <code>pony-couleur-running.gif</code>).</li>
+</ul>
+
+<p>Réfléchissez maintenant à la visibilité (public, private, final, protected) de vos variables et méthodes de classe.</p>
+
+  <!-- <li>De conna&icirc;tre son nom et de pouvoir l'&eacute;crire dans la console.
+    On devra pouvoir cr&eacute;er un poney en lui donnant un nom.
+    Si on ne le fait pas, il aura un nom par d&eacute;faut de votre choix (pensez aux attributs statiques).</li> -->
+
+<p>On va maintenant permettre aux Poneys de se connaitre.</p>
+<ul>
+  <li>Faites en sorte que chaque poney connaisse les autres (chaque classe contiendra une liste de r&eacute;f&eacute;rences vers d'autres poneys).
+  Les m&eacute;thodes associ&eacute;es devront permettre d'ajouter et d'enlever un poney &agrave; la liste des poneys connues par le poney
+appel&eacute;.
+  </li>
+  <li>Ajoutez une méthode permettant à un poney de connaitre la distance &agrave; laquelle il se trouve d'un autre poney
+    (l'appel se fera en donnant une r&eacute;f&eacute;rence de poney).
+  </li>
+  <!-- <li>de tester apr&egrave;s chaque d&eacute;placement si elle se trouve pr&egrave;s d'un poney qu'elle conna&icirc;t (par exemple moins
+de 15 pixels), et de la saluer par son nom, puis de lui demander de se d&eacute;placer (par exemple avancer un peu).
+  </li> -->
+</ul>
+
+<p>Modifiez le programme principal pour tester cette nouvelle classe. Mettez en place une m&eacute;thode qui permet ce test (qui
+cr&eacute;e plusieurs poneys, les fait se conna&icirc;tre les unes les autres, en g&egrave;re les
+d&eacute;placements, etc.). Utilisez la touche <i>espace</i> pour lancer le test. </p>
+
+
+<!--h3>Des poneys qui se passent une balle</h3>
+
+<p>Cr&eacute;ez une sous-classe de poney appel&eacute;e poneyBalle. Celle-ci a pour caract&eacute;ristique de se dessiner comme un disque. </p>
+<p>Cr&eacute;er une classe JeuDeBalle, qui g&egrave;re une partie de balle : plusieurs poneys sont cr&eacute;&eacute;es, dont une
+balle.
+un poney joueuse commence avec la balle. Puis toutes les poneys se
+d&eacute;placent au hasard. Celle qui a la balle la
+d&eacute;place en
+m&ecirc;me temps qu'elle. Si elle se trouve proche d'une autre
+poney,
+elle lui passe la balle. Testez.</p>-->
+
+<h3>Un peu de stratégie</h3>
+<p>Rajoutez un peu de stratégie en ne permettant d'utiliser le mode NianPoney qu'une seule fois (pour un tour de piste sur les cinq).</p>
+<p>Faites en sorte que deux Poneys soient contrôlés par des joueurs et les autres soient gérés par une IA simple, décidant quand utiliser le mode NianPoney. Par exemple quand la vitesse est lente, pour ne pas prendre trop de retard, quand la vitesse est rapide pour gagner un maximum d'avance, ou quand la distance aux autres Poneys devient trop grande.</p>
+
+
+<h3>Prendre de l'avance</h3>
+<font color=#ff0000>
+<p>Il est fortement recommandé de réaliser cette partie pendant le week-end, si vous n'avez pas eu le temps de la faire pendant le TP.</p>
+</font>
+
+<p>Le code actuel mélange données, logique et interface. Commencez à restructurer le projet pour séparer la logique générale de l'application, de l'affichage du jeu, des données, et de la logique de jeu (les stratégies).</p>
+
+<p>Pensez à comment le programme pourrait être généralisé, pour facilement transformer les poneys en voitures, changer le mode d'affichage (par exemple bouger les personnages sur un circuit 2D vu de haut), ajouter de nouvelles stratégies.</p>
+
+
+
+<!-- <h3>Bonus : deux &eacute;quipes</h3>
+
+<p>Vous pouvez maintenant regrouper les poneys par &eacute;quipes. Cr&eacute;ez une classe EquipePoney comportant, entre autres, un nom de joueur et un ensemble de poneys.</p>
+
+<p>Cr&eacute;ez une sous-classe de poneyAmelioree appel&eacute;e poneyEquipe, qui aura comme attribut suppl&eacute;mentaire l'&eacute;quipe d'appartenance.
+Ainsi, un poney doit pourvoir v&eacute;rifier qu'une autre poney est une co&eacute;quipi&egrave;re ou une adversaire.</p>
+
+<p>Le jeu peut &ecirc;tre une simple "passe &agrave; dix"
+(faire 10 passes au sein d'une &eacute;quipe sans se faire prendre la balle).
+Donnez un comportement &agrave;
+  chaque type de poney (d&eacute;placement sans la balle,  d&eacute;placement  avec
+la balle, passe &agrave; une autre poney de la m&ecirc;me &eacute;quipe assez proche,
+  prise de la balle &agrave; un poney adverse assez proche). Cr&eacute;ez une
+  classe
+  JeuEquipe, qui cr&eacute;e les &eacute;quipes et
+  g&egrave;re le jeu. Testez.</p> -->
