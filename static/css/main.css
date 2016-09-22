@@ -17,6 +17,7 @@ hr {
     border-bottom: 1px solid #fff;
 }
 
+
 /**
  * Font and link declarations
  */
@@ -64,6 +65,9 @@ li.collapse.in {
   color: gray;
 }
 
+code {
+   color:#333;
+ }
 /**
  * /////////////////
  * Container element
