@@ -9,9 +9,9 @@
 ### {{ class.titre }}
 <!-- class.shortname -->
 <!-- class.hours -->
-  _{{ class.track }}_ - [page du cours]({{ page.url }}{{ class.link }})
+  _{{ class.track }}_ - [page du cours]({{ class.link }})
 
-{{ class.desc }}
+{{ class.details }}
 
 
 {% endif %}

@@ -1,0 +1,147 @@
+---
+layout: page
+title: TP Javascript / JQuery
+permalink: /cours/2017/xmlweb/javascript.html
+custom_css: http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css
+custom_js:
+ - http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js
+ - https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+head_js: hljs.initHighlightingOnLoad();
+---
+
+<p>Cours 1 <a href="/courses/2017/xmlweb/internetXML.pdf">introduction (pdf)</a> et <a href="/courses/2017/xmlweb/XML+DTD.pdf">XML et DTD (pdf)</a></p>
+<p>Cours 2 <a href="/courses/2017/xmlweb//HTML5CSS.pdf">Technologies Web (HTML et CSS)</a></p>
+
+<br/>
+
+<p><em>L'objectif de ce TP va être de créer une page de contact dynamique.</em></p>
+
+
+<h3>Exercice 1 : le DOM</h3>
+<div id="dom">
+<p>
+	Ouvrir les <a href="https://developer.mozilla.org/fr/docs/Outils">outils de développement</a> de votre navigateur (F12 sur Windows, ou ctrl+maj+i).
+	Inspecter les différents éléments composant votre CV.
+</p>
+</div>
+
+<h3>Exercice 2 : Import de JQuery</h3>
+<div>
+	<p>Importer la bibliothèque <a href="http://jquery.com/">JQuery</a> dans votre page de CV, en insérant la ligne suivante dans votre head.</p>
+	<pre><code class="html">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"&gt;&lt;/script&gt;</code></pre>
+
+	<p>JQuery est une bibliothèque Javascript, facilitant le développement de page Web.</p>
+</div>
+
+<h3>Exercice 3 : Sélecteur JQuery</h3>
+<div>
+
+<p>Vérifier que chaque section de votre CV est bien englobée dans un <code>div</code> dont l'identifiant (<code>id</code>) correspond au nom de la section</p>
+
+<pre><code class="html">&lt;h3&gt;Formation&lt;/h3&gt;
+&lt;div id="formation"&gt;
+...
+&lt;/div&gt;</code></pre>
+
+<p>Utiliser un sélecteur jquery pour récupérer l'objet javascript correspondant à un div. Dans la console du navigateur taper:</p>
+<pre><code class="javascript">$("#id_d_un_div");</code></pre>
+Par exemple:
+<pre><code class="javascript">$("#formation");</code></pre>
+
+<p>Tester avec différents div / id.</p>
+</div>
+
+<h3>Exercice 4 : Cacher / Afficher du contenu</h3>
+<div>
+	<p>Toujours dans la console, afficher ou cacher une div, en utilisant les fonctions <code>hide()</code> et <code>show()</code> de JQuery:</p>
+	<pre><code class="javascript">$("#formation").hide();</code></pre>
+	<p>Tester aussi la fonction <code>toggle()</code>.</p>
+</div>
+
+
+<h3>Exercice 5 : Ajout d'un bouton cacher/montrer <button style="font-size: 50%;" onclick="alert('cacher!');">cacher</button></h3>
+	<div>
+		<p>Nous allons maintenant ajouter un bouton à l'intérieur de chaque titre:</p>
+		<pre><code class="html">&lt;h3&gt;... &lt;button style="font-size: 50%;"&gt;cacher&lt;/button&gt;&lt;/h3&gt;</code></pre>
+		<p>Ce bouton permettra de controler le div associé au titre. Pour ce faire, ajouter un listener au bouton:</p>
+		<pre><code class="html">&lt;h3&gt;... &lt;button style="font-size: 50%;" onclick="afficher('id_du_div');"&gt;cacher&lt;/button&gt;&lt;/h3&gt;</code></pre>
+		<p>Dans le <code>head</code> de votre page, au sein d'une balise script<code>script</code> ajouter la définition d'une fonction <code>afficher</code>:</p>
+		<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+  ...
+  &lt;script language="javascript" type="text/javascript"&gt;
+  function afficher(id_div) {
+  ...
+  }
+  &lt;/script&gt;
+&lt;/head&gt;
+...</code></pre>
+
+	<p>Sélectioner le div passé en argument, et utiliser toggle(); pour afficher/masquer le div en question.<p>
+
+	</div>
+
+<h3>Exercice 6 : Intégrer un script externe à la page</h3>
+<div>
+	<p>Créer un fichier externe, <code>cv.js</code>, et l'importer dans votre page html comme vu en cours. Déplacer le code contenu dans la balise <code>script</code> au sein de ce fichier.</p>
+</div>
+
+<h3>Exercice 6bis : Tester sur github</h3>
+<div>
+	<p>Mettre à jour votre CV sur github, comme vu dans le <a href="html.html">TP précédent</a>.</p>
+</div>
+
+
+<h3>Exercice 7 : Formulaire de contact</h3>
+<div>
+	<p>Créer un formulaire de contact qui contient les champs (HTML5) suivants:</p>
+	<ul>
+		<li>Nom</li>
+		<li>Email</li>
+		<li>Téléphone</li>
+		<li>Message</li>
+	</ul>
+	<p>Rappel : les <a href="http://tabard.fr/courses/2017/xmlweb//HTML5CSS.pdf#26">formulaires</a> doivent contenir des entrées <a href="http://tabard.fr/courses/2017/xmlweb//HTML5CSS.pdf#45">typées :</a>
+	</p>
+
+	<pre><code class="html">&lt;form&gt;
+  &lt;input type="text" name="nom" /&gt;
+    ...
+&lt;/form&gt;</code></pre>
+	<p>Créer aussi un bouton de soumission en fin de formulaire.</p>
+
+	<p>Ajouter un event listener "onclick" sur le bouton de soumission, appelant une fonction de vérification des champs.</p>
+	<p>Créer la fonction de vérification de champs dans le head :</p>
+	<pre><code class="html">&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      ...
+      &lt;script language="javascript" type="text/javascript"&gt;
+        ...
+      &lt;/script&gt;
+    &lt;/head&gt;
+  ...</code></pre>
+	<p>La fonction doit vérifier les champs suivants :</p>
+	<ul>
+		<li>Email : que le caractère '@' soit présent dans le mail, grâce à la méthode <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/includes">includes('');</a></li>
+		<li>Téléphone : que le nombre de caractères dans le numéro de téléphone soit correct (10), grâce à la propriété <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String/length">length</a></li>
+	</ul>
+	<p>Pour vérifier un champ, assurer vous qu'il a un <code>id</code>, et utiliser un sélecteur pour récupérer l'élément. La fonction <code>.val();</code> permet de récupér le contenu du champs dans une variable.</p>
+<pre><code class="javascript">function validation() {
+  var contenu_email = $(selecteur_champ_email).val();
+  ...
+  valider_email(contenu_email);
+function valider_email(email){
+  //vérifier que l'email contient le caractère @
+  //si ce n'est pas le cas afficher une alerte.
+}</code></pre>
+
+	<p>En cas de champ mal formé, afficher un <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/alert">dialogue d'alerte</a> indiquant quel champ est incorrect.</p>
+	<p>Bonus : pour la vérification du numéro de téléphone, vérifier que tous les caractères soient des chiffres.</p>
+</div>
+
+
+<h3>Rendu</h3>
+	<p>Remplir le <a href="http://spiralconnect.univ-lyon1.fr/webapp/assessment/assessmentAnswer.html?id=6920902&mode=answer">formulaire Spiral</a> avec le lien vers la page github.io de votre cv, avant le samedi 4/03 à minuit.</p>
+</div>

@@ -59,6 +59,7 @@ def get_pub_md(context, config):
         author_str = _get_author_str(pub['author'])
         prefix = category['prefix']
         title = pub['title']
+        print(title)
         # if title[-1] not in ("?", ".", "!"):
         #    title += ","
         # title = '"{}"'.format(title)
@@ -85,6 +86,11 @@ def get_pub_md(context, config):
 
         elif (pub['ENTRYTYPE'] == 'article'):
             venue = "<i>{}</i>. {}({}), {}.".format(pub['journal'], pub['volume'], pub['number'], pub['pages'])
+
+        elif (pub['ENTRYTYPE'] == 'incollection'):
+            venue = "In <i>{}</i>. (pp. {}).".format(pub['booktitle'], pub['pages'])
+            if 'publisher' in pub:
+                venue = venue + " {}.".format(pub['publisher'].replace('\\newline','<br/>'))
 
         # elif (pub['ENTRYTYPE'] == 'techreport'):
         #
@@ -257,7 +263,7 @@ class RenderContext(object):
                 section_data['data'] = section_content
             elif section_tag in ['coursework', 'education', 'honors',
                                  'industry', 'research',
-                                 'skills', 'teaching','languages']:
+                                 'skills', 'teaching','languages', 'projects']:
                 section_data['items'] = section_content
                 section_template_name = os.path.join(
                     self.SECTIONS_DIR, section_tag + self._file_ending)

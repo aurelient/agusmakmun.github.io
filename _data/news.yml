@@ -1,9 +1,37 @@
+- date: June-July 2017
+  desc: Visiting <a href="http://adamrule.com/">Adam Rule</a> and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> @UCSD's <a href="http://designlab.ucsd.edu/">Design Lab</a> and <a href="http://www.cogsci.ucsd.edu/">CogSci dep.</a>
+  display: y
+- date: May. 2017
+  desc: Francesco Vitale will present our CHI paper "<a href="https://hal.archives-ouvertes.fr/hal-01493415">High Costs and Small Benefits - A Field Study of How Users Experience Operating System Upgrades</a>", with Joanna McGrenere of the University of British Columbia, and Michel Beaudouin-Lafon and Wendy Mackay of Université Paris Sud and INRIA.
+  display: y
+- date: Apr. 2017
+  desc: Lili Tong will present our paper with Audrey Serna, "Supporting Decision-Making Activities in Multi-Surface Learning Environments" at <a href="http://www.csedu.org/">CSEDU</a>.
+  display: y
+- date: Mar. 2017
+  desc: Our paper with Lili Tong and Audrey Serna cond. accepted to Interact - "Horizontal vs. Vertical - How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments".
+  display: y
+- date: Feb. 2017
+  desc: It's official! <a href="http://interaction18.ixda.org/">Interaction'18</a> will be in Lyon, I'm part of the organization committee and actively preparing in the Education Summit.
+  display: y
+- date: Jan. 2017
+  desc: Our book chapter with J. Bardram and M. Esbensen - "<a href="https://hal.archives-ouvertes.fr/hal-01436498">Activity-Based Collaboration for Interactive Spaces</a>", is published.
+  display: y
+- date: Jan. 2017
+  desc: Mohamed El Zaouia is starting his Ph.D. on activity resumption and learning dashboards. Supervised by E. Lavoué and I, in collaboration with <a href="https://www.speakplus.fr/en/learner/">speakplus.fr</a>.
+  display: y
+- date: Dec. 2016
+  desc: Our ERA-NET project PLACED (PLace and Activity Centric Dynamic Library Services) was accepted!
+  display: y
+- date: Dec. 2016
+  desc: Valentin Lachand is starting his Ph.D. on 3rd wave Activity Based Computing for education within the REPI project.
+    He will be building activity based systems linking classrooms, library and home activities, and enable teachers to script activities and follow their unfolding.
+  display: y
 - date: Oct. 2016
   desc: Co-organizing the workshop <a href="http://livvil.github.io/workshop/">LIVVIL – Logging Interactive Visualizations and Visualizing Interaction Logs</a> at VIS'2016 with <a href="http://romain.vuillemot.net/">Romain Vuillemot</a>, <a href="http://jyby.eu/">Jeremy Boy</a>, <a href="http://charles.perin.free.fr/">Charles Perin</a> and <a href="http://www.aviz.fr/~fekete/">Jean-Daniel Fekete</a>.
   display: y
 - date: Sept. 2016
   desc: Two articles accepted at <a href="http://ihm2016.afihm.org/">IHM'16</a>.
-  display: y
+  display: n
 - date: Sep. 2016
   desc: <a href="http://www.tonglili.net/">Lili Tong</a> will be presenting our paper with Audrey Serna at <a href="http://mobilehci.acm.org/2016/">Mobile HCI</a>, <a href="data/publications/MobileHCI16.pdf">It's Not How You Stand, It's How You Move&#58; F-formations and Collaboration Dynamics in a Mobile Learning Game</a>.
   display: y
@@ -18,13 +46,13 @@
   display: y
 - date: Jan. - Apr. 2016
   desc: Teaching UX Design in the <a href="https://www.fun-mooc.fr/courses/ENSDeLyon/14002S02/session02/about">French MOOC on Information Architecture </a>.
-  display: y
+  display: n
 - date: July. 2015
   desc: Jury member for the final year projects of <a href="http://dsaa.designvillefontaine.com/">DSAA Villefontaine</a>.
-  display: y
+  display: n
 - date: Jun. 2015
-  desc: 'Paper with Adam Rule, Karen Boyd and James Hollan accepted at <a href="http://cognitivesciencesociety.org/conference2015/index.html">CogSci 2015</a> - Restoring the Context of Interrupted Work with Desktop Thumbnails.'
-  display: y
+  desc: 'Paper with Adam Rule, Karen Boyd and Jim Hollan accepted at <a href="http://cognitivesciencesociety.org/conference2015/index.html">CogSci 2015</a> - Restoring the Context of Interrupted Work with Desktop Thumbnails.'
+  display: n
 - date: Jun. 2015
   desc: AC for IHM 2015
   display: n
@@ -33,7 +61,7 @@
   display: n
 - date: May 2015
   desc: CNRS PEPS Grant accepted to work on visualizations to explore physical and digital library collections.
-  display: y
+  display: n
 - date: May 2015
   desc: Taught the lecture on UX in the <a href="https://www.france-universite-numerique-mooc.fr/courses/ENSDeLyon/14002/session01/about">French MOOC on Information Architecture </a>.
   display: n

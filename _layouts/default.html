@@ -15,61 +15,61 @@
         <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
         <meta content="{{ site.title }}" property="og:site_name">
         {% if page.title %}
-          <meta content="{{ page.title }}" property="og:title">
+        <meta content="{{ page.title }}" property="og:title">
         {% else %}
-          <meta content="{{ site.title }}" property="og:title">
+        <meta content="{{ site.title }}" property="og:title">
         {% endif %}
         {% if page.title %}
-          <meta content="article" property="og:type">
+        <meta content="article" property="og:type">
         {% else %}
-          <meta content="website" property="og:type">
+        <meta content="website" property="og:type">
         {% endif %}
         {% if page.description %}
-          <meta content="{{ page.description }}" property="og:description">
+        <meta content="{{ page.description }}" property="og:description">
         {% else %}
-          <meta content="{{ site.description }}" property="og:description">
+        <meta content="{{ site.description }}" property="og:description">
         {% endif %}
         {% if page.url %}
-          <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+        <meta content="{{ site.url }}{{ page.url }}" property="og:url">
         {% endif %}
         {% if page.date %}
-          <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-          <meta content="{{ site.url }}/about/" property="article:author">
+        <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+        <meta content="{{ site.url }}/about/" property="article:author">
         {% endif %}
         {% if page.image %}
-          <meta content="{{ site.url }}/static/img/posts/{{ page.image }}" property="og:image">
+        <meta content="{{ site.url }}/static/img/posts/{{ page.image }}" property="og:image">
         {% else %}
-          <meta content="{{ site.url }}/static/img/logo-high-resolution.png" property="og:image">
+        <meta content="{{ site.url }}/static/img/logo-high-resolution.png" property="og:image">
         {% endif %}
         {% if page.categories %}
           {% for category in page.categories limit:1 %}
-          <meta content="{{ category }}" property="article:section">
+        <meta content="{{ category }}" property="article:section">
           {% endfor %}
         {% endif %}
         {% if page.tags %}
           {% for tag in page.tags %}
-          <meta content="{{ tag }}" property="article:tag">
+        <meta content="{{ tag }}" property="article:tag">
           {% endfor %}
         {% endif %}
-
+        <!--  -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@{{ site.share.twitter_username }}">
         <meta name="twitter:creator" content="@{{ site.share.twitter_username }}">
         {% if page.title %}
-          <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:title" content="{{ page.title }}">
         {% else %}
-          <meta name="twitter:title" content="{{ site.title }}">
+        <meta name="twitter:title" content="{{ site.title }}">
         {% endif %}
         {% if page.url %}
-          <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
         {% endif %}
         {% if page.description %}
-          <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:description" content="{{ page.description }}">
         {% else %}
-          <meta name="twitter:description" content="{{ site.description }}">
+        <meta name="twitter:description" content="{{ site.description }}">
         {% endif %}
         {% if page.header-img %}
-          <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+        <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
         {% endif %}
 
         <!-- Font awesome icons -->
@@ -90,6 +90,39 @@
         <link rel="stylesheet" href="/static/css/projects.css">
         <link rel="stylesheet" href="/static/css/main.css">
 
+        {% if page.custom_css %}
+          {% for stylesheet in page.custom_css %}
+        <link rel="stylesheet" href="{{ stylesheet }}" media="screen" type="text/css">
+          {% endfor %}
+        {% endif %}
+        {% if page.custom_js %}
+          {% for js_file in page.custom_js %}
+        <script src='{{ js_file }}' type="text/javascript"></script>
+          {% endfor %}
+        {% endif %}
+        {% if page.head_js %}
+          {% for js in page.head_js %}
+        <script type="text/javascript">{{ js }}</script>
+          {% endfor %}
+        {% endif %}
+
+
+        <!-- Piwik -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          // tracker methods like "setCustomDimension" should be called before "trackPageView"
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//tabard.fr/piwik/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="//tabard.fr/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
     </head>
 
     <body>

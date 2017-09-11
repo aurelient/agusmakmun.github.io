@@ -27,6 +27,14 @@ span.time, span.categories {
     font-size: 11px;
 }
 
+.important {
+    font-weight: bolder;
+    font-size: larger;
+    color: #8C8C8C;
+    margin: 20px 0px;
+}
+
+
 h1 {
     /*font-weight: normal;
     color: #696969;
@@ -47,13 +55,12 @@ h3 {
 }
 
 a, a:link, a:active {
-    text-decoration: none;
+    text-decoration: underline;
     color: #8C8C8C;
 }
 
 a:hover {
     color: #B3B3B3;
-    text-decoration: underline;
 }
 
 ul {
@@ -169,6 +176,12 @@ img#about {
 .nav-left ul {
   padding-left: 15px;
 }
+
+.nav-left a, .nav-left a:link, .nav-left a:active {
+    text-decoration: none;
+}
+
+
 
 .PageNavigation {
     font-size: 14px;

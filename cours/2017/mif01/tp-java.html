@@ -1,0 +1,122 @@
+---
+layout: page
+title: Mif01 - TP Remise en route JAVA
+permalink: /cours/2017/mif01/tp-java.html
+---
+
+<h2>Objectif</h2>
+<p>Il vous est demandé de mettre en place quelques classes pour vous remettre en tête les grands
+principes de la programmation orientée objet : messages et collaboration entre objets, attributs et méthodes, constructeurs, héritage,
+etc.</p>
+<p>Pour cela, vous travaillerez sur un jeu de balle au prisonnier.</p>
+
+<font color=#ff0000>
+<p>Votre travail servira de base aux TPs suivants qui feront l'objet d'une note globale.<br/>
+  Le travail en binome est fortement conseillé.</p>
+</font>
+
+<h2>Environnement</h2>
+
+<p>Pour développer en Java durant le TP, vous pouvez choisir d'utiliser :
+<ul>
+<li>Un environnement de développement intégré (comme Eclipse, Netbeans ou Intellij) qui permet de compiler, de générer un projet, de débugger et d'exécuter </li>
+<li>N'importe quel éditeur de texte avec coloration syntaxique, et effectuer la compilation et l'exécution en ligne de commande (<i>javac</i>, <i>java</i>) </li>
+</ul>
+</p>
+
+
+<h2>Travail demandé </h2>
+
+<p>L'archive <a href="./M1if01.zip">M1if01.zip</a> contient les classes de base :</p>
+
+<ul color=#ff0000>
+  <li>App : la classe principale, qui gère la création de l'application</li>
+  <li>Field : une classe gérant le terrain de jeu</li>
+  <li>Joueur : une classe gérant un joueur et ses diverses méthodes (avancer, tourner, ...)</li>
+  <li>Sprite : une classe gérant le rendu graphique et l'animation des joueurs, ou d'autres éléments graphiques</li>
+</ul>
+
+<p>Décompressez l'archive dans un dossier sur votre compte. Explorez le code source. Compilez et lancez le programme principal <i>balleauprisonnier</i>.</p>
+
+<p>Testez, utilisez les touches WASD ou les flêches directionnelles pour déplacer et faire pivoter les joueurs.</p>
+
+
+
+<p>Consultez la documentation de <a href="http://docs.oracle.com/javase/8/docs/api/">Java 8</a> et de <a href="http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html"/>Javafx</a> (la bibliothèque graphique utilisée).</p>
+
+<blockquote>
+  <p>
+    Il est possible qu'Eclipse signale une erreur ou un warning de restriction d'access lors de l'utilisation de javafx.
+    Ce problème peut être résolu en <a href="https://stackoverflow.com/a/32062263/350946">modifiant les propriétés du projet pour autoriser javafx</a>. Vous remarquerez au passage que la solution la plus simple n'est pas la première sur stackoverflow : lisez les solutions alternatives avant de partir pour l'une ou l'autre.
+  </p>
+  <p>Javafx est normalement intégré au Java Development Kit (JDK), depuis la version 8. Cependant <b>sous Linux</b>, il est possible <a href="https://stackoverflow.com/questions/18547362/javafx-and-openjdk">qu'il faille ajouter javafx "à la main"</a>
+  </p>
+</blockquote>
+
+
+<h3>Amélioration du programme</h3>
+
+<p>Modifiez la classe Player pour :</p>
+<ul>
+  <li>que les touches de contrôle correspondent à un clavier AZERTY plutôt que QWERTY, i.e. ZQSD au lieu de WASD.</li>
+  <li>que la vitesse (la taille du pas) du Joueur soit variable (que cela deviennent une propriété du joueur spécifié à sa création).</li>
+  <li>que chaque joueur utilise une touche différente pour tirer (au lieu d'ESPACE pour les deux joueurs).</li>
+</ul>
+
+<p>Voir la <a href="http://docs.oracle.com/javafx/2/events/jfxpub-events.htm">gestion des évènements clavier avec Javafx</a> au besoin,
+et leur application dans un jeu <a href="http://gamedevelopment.tutsplus.com/tutorials/introduction-to-javafx-for-game-development--cms-23835">ici (section Handling User Input)</a>,</p>
+
+<p>Testez.</p>
+
+<p>Ajouter quelques méthodes à Player et Field :</p>
+<ul>
+  <li>Créer deux listes de joueurs correspondants à deux équipes (au lieu d'une liste).</li>
+  <li>Utiliser l'héritage pour faire une distinction entre joueurs contrôlés par un humain et par l'ordinateur.</li>
+  <li>Pour l'instant les joueurs controlés par l'ordinateur restent statiques.</li>
+  <li>Faire en sorte qu'une partie oppose 3 joueurs (1 humain, 2 ordinateurs) de chaque côté.</li>
+</ul>
+
+<p>Testez.</p>
+
+<h3>Tirs</h3>
+<p>Nous allons maintenant faire un sorte qu'un tir déclenche un lancer de projectile qui traverse le terrain, et atterisse dans le camp adverse, sur un adversaire ou non.</p>
+<ul>
+  <li>Créer une classe projectile, créée lors d'un tir, avec une vitesse et une direction.</li>
+  <li>Associer une représentation graphique à cette classe (voir l'image ball.png dans le dossier assets).</li>
+  <li>S'assurer que le projectile se déplace bien lors de la boucle principale du jeu.</li>
+</ul>
+
+<p>Réfléchissez maintenant aux dépendances entre vos classe, et à la visibilité (public, private, final, protected) de vos variables et méthodes de classe.</p>
+
+<h3>Collisions</h3>
+<p>
+  Dans un premier temps, c'est le terrain (Field) qui connait à la fois les joueurs et le(s) projectile(s).
+  Faire en sorte que :
+</p>
+<ul>
+  <li>le projectile s'arrête dans le camps opposé, soit en tombant au sol, soit en touchant un joueur.</li>
+  <li>le projectile teste s'il rencontre un joueur adverse. Pour cela 1. <a =href="https://developer.mozilla.org/fr/docs/Games/Techniques/2D_collision_detection">créer une méthode testant si deux rectangles se chevauchent </a>; 2. rajouter une méthode permettant de facilement récupérer les coordonnées de la bounding box (du rectangle englobant) des projectiles et des joueurs ; 3. À chaque déplacement du projectile tester s'il rencontre un joueur adverse.</li>
+  <li>le joueur adverse disparaisse du jeu s'il est touché. Pour cela rajouter un attribut à la classe Player.</li>
+</ul>
+
+<p>Testez avec les joueurs contrôlés par les utilisateurs.</p>
+
+
+<h3>Un peu d'intelligence</h3>
+<p>Rajouter un peu de stratégie en permettant aux joueurs contrôlés par l'ordinateur de :</p>
+  <ul>
+    <li>se déplacer d'abord de manière aléatoire ;</li>
+    <li>se déplacer dans la direction opposée au tir ;</li>
+    <li>de tirer vers l'endroit avec le plus de joueurs.</li>
+  </ul>
+
+
+
+<h3>Prendre de l'avance</h3>
+<font color=#ff0000>
+<p>Il est fortement recommandé de réaliser cette partie pendant la semaine et le week-end qui vient, si vous n'avez pas eu le temps de la faire pendant le TP.</p>
+</font>
+
+<p>Le code actuel mélange données, logique et interface. Commencez à restructurer le projet pour séparer la logique générale de l'application, de l'affichage du jeu, des données, et de la logique de jeu (les stratégies de tir et de déplacement).</p>
+
+<p>Pensez à comment le programme pourrait être généralisé, pour facilement transformer les joueurs en autre chose, changer le mode d'affichage (par exemple bouger les personnages comme sur un platformer, avec une vue de profil), ajouter de nouvelles stratégies de tir.</p>

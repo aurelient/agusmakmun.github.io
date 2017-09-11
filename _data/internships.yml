@@ -6,3 +6,15 @@
 #   desc: "Les interruptions font maintenant partie intégrante de notre activité.
 #   Plutôt que d'essayer de les éliminer, une approche alternative
 #   consiste à faciliter la reprise d'activité après une interruption."
+
+- date: 2017-01-07
+  active: n
+  title: Augmented Reality in Museums
+  keywords: Visualisation, Augmented Reality, Museums
+  desc: "- [Description (in French)](https://cl.ly/3k3C03443C3s). In collaboration with the startup Museopic."
+
+- date: 2017-01-07
+  active: n
+  title: Emotion Visualisation in MOOCs
+  keywords: Visualisation, Emotions, Learning, MOOCS
+  desc: "- [Description (in French)](https://docs.google.com/document/d/1Wp-b6dL4TCpMdV6TEpGqsKkBR19kxPZEMS4N3UIbuhM/edit). In collaboration with the University of McGill."

@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, actually in Python and Django.
+I am an Assistant Professor in Computer Science at Université de Lyon.
 
-email: agus[at]python.web.id
+email: aurelien.tabard[at]univ-lyon1.fr

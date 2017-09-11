@@ -75,6 +75,48 @@
 </table>
 
 
+<h3> <a class="smaller" name="Projects"><i class="fa fa-chevron-right smaller"></i></a> Projects </h3>
+
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'><a href="http://placedproject.eu/">PLACED (ERA-NET)</a></td>
+  <td>
+    French coordinator, 2017-2020 <br/>
+    <p>PLACED is an ERA-NET project in collaboration with Aarhus University, Chalmers University, Université de Lyon and the National School of Libraries in France (ENSSIB). The project aims to reinvent the services provided by city libraries. We will design and develop news types of place- and activity-centric digital services. Whereas library services typically focus on providing access to a collection of physical media, PLACED services support activities (e.g. hackathons, public readings, discussion groups) in the library. The groundbreaking aspect is that these services capture knowledge generated through these activities, make them a part of the library’s collection, and allow future library users to explore and access them.</p>
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>REPI (FUI)</td>
+  <td>
+    co-PI, 2016-2019 <br/>
+    <p>REPI is a FUI project. Our goal is to design and study how Orchestration and Activity Based Computing could be integrated into new platforms and services for high-schools.</p>
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1319829">Activity-Enriched Computing (NSF)</a></td>
+  <td>
+    self-funded participant, 2013-2017 <br/>
+    <p>Although myriad extraordinary benefits have resulted from the web and expanding network connectivity, the intertwining of computers with virtually every aspect of life also brings a growing stream of interruptions. These interruptions and the fragmenting of activity they produce are increasingly accepted parts of modern life. A critical research challenge for human-centered computing is how to smooth and mitigate the impact of interruptions as well as assist in resuming interrupted activities. Meeting this challenge will require moving beyond the traditional document-centric view of information to address the complexity of real activity, its often fragmented history, and the need to access information arrayed across digital and paper media.</p>
+    <p>This project will explore the design of systems that will allow people to exploit visual and episodic memory to benefit from the capture of the history and context of their computer-mediated activities. The heart of the project is rethinking the nature of data as stored in computers from being a state to being an inspectable activity history of interaction that can be presented to users. Activity-enriched computing has the potential to reshape how we use computers by creating systems that react to and are augmented by the history of past events, changing the computer environment to one in which history is always available to assist if needed. The primary scientific contributions will be to (a) develop an activity-enriched computing framework for designing a new class of systems in which history is a first-class element, (b) prototype and evaluate activity-enriched applications, and (c) extend theory and methods for representing, visualizing, and analyzing activity histories. Scientific contributions will include a novel activity-enriched computing framework that will (a) capture the rich detail of computer-mediated activity, (b) identify and make meaningful and useful episodes available, (c) link the worlds of paper and digital documents, and (d) exploit summarization and visual access mechanisms to support navigation of activity histories and ease resuming interrupted activities. The overarching objective is to lessen the impact of interruptions and aid reestablishment of context.</p>
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'><a href="https://projet-episteme.org/">Episteme (ANR)</a></td>
+  <td>
+    participant, 2014-2018 <br/>
+    <p>Épistémologie transdisciplinaire des technologies numériques pour la conception d’un nouvel environnement de catégorisation contributive et d’instruments contributifs de recherche, d’enseignement et de diffusion associés.</p>
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'><a href="http://jenlab.fr/">Jenlab (ANR)</a></td>
+  <td>
+    participant, 2014-2018 <br/>
+    <p>Apprentissage avec les Jeux Épistémiques Numériques (Usages-Technologies-Méthodologies).</p>
+  </td>
+</tr>
+</table>
+
+
 <h3> <a class="smaller" name="Publications"><i class="fa fa-chevron-right smaller"></i></a> Publications </h3>
 
 
@@ -90,10 +132,22 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
+        Rule A., Tabard A., and Hollan J. (2017)
+        <strong>Using Visual Histories to Reconstruct the Mental Context of Suspended Activities</strong>
+        <i>Human-Computer Interaction</i>. 0(just-accepted), 0-25.<br>
+        [J1]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
         Stusak S., Tabard A., Sauka F., Khot R., and Butz A. (2014)
         <strong>Activity sculptures: Exploring the impact of physical visualizations on running activity</strong>
         <i>IEEE transactions on visualization and computer graphics</i>. 20(12), 2201-2210.<br>
-        [J1]<br>
+        [J2]<br>
         
     </td>
     </tr>
@@ -107,12 +161,12 @@
 <table class="table table-hover">
 
     <tr>
-    <td class="col-md-3"><a href='https://hal.archives-ouvertes.fr/hal-01213708' target='_blank'>_</a> </td>
+    <td class="col-md-3"><a href='https://hal.archives-ouvertes.fr/hal-01493415' target='_blank'>_</a> </td>
     <td>
-        Rule A., Tabard A., Boyd K., and Hollan J. (2015)
-        <strong><a href='https://hal.archives-ouvertes.fr/hal-01213708'>Restoring the Context of Interrupted Work with Desktop Thumbnails</a></strong>
-        In <i>37th Annual Meeting of the Cognitive Science Society</i>. (pp. 2045-2050). Pasadena, United States, Cognitive Science Society.<br>
-        [CP1] [<a href='https://hal.archives-ouvertes.fr/hal-01213708' target='_blank'>pdf</a>] <br>
+        Vitale F., Mcgrenere J., Tabard A., Beaudouin-Lafon M., and Mackay W. (2017)
+        <strong><a href='https://hal.archives-ouvertes.fr/hal-01493415'>High Costs and Small Benefits: A Field Study of How Users Experience Operating System Upgrades</a></strong>
+        In <i>CHI 2017</i>. (pp. 0-12). Denver, United States,<br>
+        [CP1] [<a href='https://hal.archives-ouvertes.fr/hal-01493415' target='_blank'>pdf</a>]  [<a href='10.1145/3025453.3025509' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -121,10 +175,46 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Belin A., Prié Y., and Tabard A. (2014)
+        Tong L., Tabard A., Georges S., and Serna A. (2017)
+        <strong>Horizontal vs. Vertical: How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments</strong>
+        In <i>INTERACT'17: Proceedings of the 18th IFIP TC 13 international conference on Human-computer interaction</i>. (pp. 0-24). Berlin, Heidelberg, Springer-Verlag. <br/> [Acceptance rate 29%, 67/231].<br>
+        [CP2]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Tong L., Serna A., George S., and Tabard A. (2017)
+        <strong>Supporting Decision-making Activities in Multi-Surface Learning Environments</strong>
+        In <i>9th International Conference on Computer Supported Education (CSEDU)</i>. (pp. 0-12).<br>
+        [CP3]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='https://hal.archives-ouvertes.fr/hal-01213708' target='_blank'>_</a> </td>
+    <td>
+        Rule A., Tabard A., Boyd K., and Hollan J. (2015)
+        <strong><a href='https://hal.archives-ouvertes.fr/hal-01213708'>Restoring the Context of Interrupted Work with Desktop Thumbnails</a></strong>
+        In <i>37th Annual Meeting of the Cognitive Science Society</i>. (pp. 2045-2050). Pasadena, United States, Cognitive Science Society.<br>
+        [CP4] [<a href='https://hal.archives-ouvertes.fr/hal-01213708' target='_blank'>pdf</a>] <br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Belin A., Pri\'e Y., and Tabard A. (2014)
         <strong>Supporting the Development of Digital Skills</strong>
         In <i>Digital Intelligence</i>. (pp. 4 pages). Springer.<br>
-        [CP2]<br>
+        [CP5]<br>
         
     </td>
     </tr>
@@ -136,7 +226,7 @@
         Hausen D., Tabard A., von Thermann A., Holzner K., and Butz A. (2013)
         <strong><a href='http://doi.acm.org/10.1145/2540930.2540941'>Evaluating Peripheral Interaction</a></strong>
         In <i>Proceedings of the 8th International Conference on Tangible, Embedded and Embodied Interaction</i>. (pp. 21-28). New York, NY, USA, ACM.<br/> [Acceptance rate 25%, 45/178].<br>
-        [CP3] [<a href='http://doi.acm.org/10.1145/2540930.2540941' target='_blank'>pdf</a>]  [<a href='10.1145/2540930.2540941' target='_blank'>doi</a>] <br>
+        [CP6] [<a href='http://doi.acm.org/10.1145/2540930.2540941' target='_blank'>pdf</a>]  [<a href='10.1145/2540930.2540941' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -145,10 +235,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Sicard L., Tabard A., and Hincapié-Ramos J. (2013)
+        Sicard L., Tabard A., and Hincapi\'e-Ramos J. (2013)
         <strong>TIDE: Lightweight Device Composition for Enhancing Tabletop Environments with Smartphone Applications</strong>
         In <i>INTERACT'13: Proceedings of the 14th IFIP TC 13 international conference on Human-computer interaction</i>. (pp. 177-194). Berlin, Heidelberg, Springer-Verlag. <br/> [Acceptance rate 31%, 128/413].<br>
-        [CP4]<br>
+        [CP7]<br>
         
     </td>
     </tr>
@@ -160,7 +250,7 @@
         Tabard A., Gurn S., Butz A., and Bardram J. (2013)
         <strong>A case study of object and occlusion management on the elabbench, a mixed physical/digital tabletop</strong>
         In <i>Proceedings of the 2013 ACM international conference on Interactive tabletops and surfaces</i>. (pp. 251-254). ACM.<br/> [Acceptance rate 29%, 35/121].<br>
-        [CP5]<br>
+        [CP8]<br>
         
     </td>
     </tr>
@@ -169,10 +259,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Tabard A., Hincapié Ramos J., and Bardram J. (2012)
+        Tabard A., Hincapi\'e Ramos J., and Bardram J. (2012)
         <strong>The eLabBench in the wild: supporting exploration in a molecular biology lab</strong>
         In <i>CHI '12: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i>. (pp. 3051-3060). New York, NY, USA, ACM.<br/> [Acceptance rate 23%, 370/1577].<br>
-        [CP6] [<a href='http://doi.acm.org/10.1145/2207676.2208718' target='_blank'>doi</a>] <br>
+        [CP9] [<a href='http://doi.acm.org/10.1145/2207676.2208718' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -181,10 +271,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Tabard A., Hincapié-Ramos J., Esbensen M., and Bardram J. (2011)
+        Tabard A., Hincapi\'e-Ramos J., Esbensen M., and Bardram J. (2011)
         <strong>The eLabBench: an interactive tabletop system for the biology laboratory</strong>
         In <i>ITS '11: Proceedings of the ACM International Conference on Interactive Tabletops and Surfaces</i>. (pp. 202-211). New York, NY, USA, ACM.<br/> [Acceptance rate 33%, 32/96] - **Best paper award**.<br>
-        [CP7] [<a href='http://doi.acm.org/10.1145/2076354.2076391' target='_blank'>doi</a>] <br>
+        [CP10] [<a href='http://doi.acm.org/10.1145/2076354.2076391' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -193,10 +283,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Hincapié-Ramos J., Tabard A., and Bardram J. (2011)
+        Hincapi\'e-Ramos J., Tabard A., and Bardram J. (2011)
         <strong>Mediated tabletop interaction in the biology lab: exploring the design space of the rabbit</strong>
         In <i>UbiComp '11: Proceedings of the 13th international conference on Ubiquitous computing</i>. (pp. 301-310). New York, NY, USA, ACM.<br/> [Acceptance rate 17%, 50/302].<br>
-        [CP8] [<a href='http://doi.acm.org/10.1145/2030112.2030153' target='_blank'>doi</a>] <br>
+        [CP11] [<a href='http://doi.acm.org/10.1145/2030112.2030153' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -205,10 +295,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Hincapié Ramos J., Tabard A., and Bardram J. (2011)
+        Hincapi\'e Ramos J., Tabard A., and Bardram J. (2011)
         <strong>GridOrbit: an infrastructure awareness system for increasing contribution in volunteer computing</strong>
         In <i>CHI '11: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i>. (pp. 1899-1908). New York, NY, USA, ACM.<br/> [Acceptance rate 27%, 410/1532] - **Awarded honorable mention** (top 5%).<br>
-        [CP9] [<a href='http://doi.acm.org/10.1145/1978942.1979218' target='_blank'>doi</a>] <br>
+        [CP12] [<a href='http://doi.acm.org/10.1145/1978942.1979218' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -217,10 +307,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Malacria S., Pietrzak T., Tabard A., and Lecolinet é. (2011)
+        Malacria S., Pietrzak T., Tabard A., and Lecolinet \. (2011)
         <strong>U-note: capture the class and access it everywhere</strong>
         In <i>INTERACT'11: Proceedings of the 13th IFIP TC 13 international conference on Human-computer interaction</i>. (pp. 643-660). Berlin, Heidelberg, Springer-Verlag.<br/> [Acceptance rate 27%].<br>
-        [CP10]<br>
+        [CP13]<br>
         
     </td>
     </tr>
@@ -229,10 +319,10 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Hincapié-Ramos J., Tabard A., and Bardram J. (2010)
+        Hincapi\'e-Ramos J., Tabard A., and Bardram J. (2010)
         <strong>Designing for the invisible: user-centered design of infrastructure awareness systems</strong>
         In <i>DIS '10: Proceedings of the 8th ACM Conference on Designing Interactive Systems</i>. (pp. 302-305). New York, NY, USA, ACM.<br/> [Acceptance rate 19%, 57/294].<br>
-        [CP11] [<a href='http://doi.acm.org/10.1145/1858171.1858225' target='_blank'>doi</a>] <br>
+        [CP14] [<a href='http://doi.acm.org/10.1145/1858171.1858225' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -244,7 +334,7 @@
         Tabard A., Mackay W., and Eastmond E. (2008)
         <strong>From individual to collaborative: the evolution of prism, a hybrid laboratory notebook</strong>
         In <i>CSCW '08: Proceedings of the 2008 ACM conference on Computer supported cooperative work</i>. (pp. 569-578). New York, NY, USA, ACM.<br/> [Acceptance rate 23%, 86/370].<br>
-        [CP12] [<a href='http://doi.acm.org/10.1145/1460563.1460653' target='_blank'>doi</a>] <br>
+        [CP15] [<a href='http://doi.acm.org/10.1145/1460563.1460653' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -256,7 +346,7 @@
         Yuan S., Tabard A., and Mackay W. (2008)
         <strong>Streamliner: A general-purpose interactive course-visualization tool</strong>
         In <i>In Proceedings of KAM'08 International Symposium on Knowledge Acquisition and Modeling</i>. (pp. 915-919). IEEE Press.<br>
-        [CP13]<br>
+        [CP16]<br>
         
     </td>
     </tr>
@@ -268,7 +358,50 @@
         Tabard A., Mackay W., Roussel N., and Letondal C. (2007)
         <strong>PageLinker: integrating contextual bookmarks within a browser</strong>
         In <i>CHI '07: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</i>. (pp. 337-346). New York, NY, USA, ACM.<br/> [Acceptance rate: 22%, 182/840].<br>
-        [CP14] [<a href='http://doi.acm.org/10.1145/1240624.1240680' target='_blank'>doi</a>] <br>
+        [CP17] [<a href='http://doi.acm.org/10.1145/1240624.1240680' target='_blank'>doi</a>] <br>
+        
+    </td>
+    </tr>
+    
+
+</table>
+
+
+<h4> Book Chapters <!--a href="https://github.com/aurelient/cv-py/blob/master/publications/chapters.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a--> </h4>
+
+<table class="table table-hover">
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Tabard A. and Mille A. (2015)
+        <strong>L'exp\'erience utilisateur - UX</strong>
+        In <i>Architecture de l'information : m\'ethodes, outils, enjeux</i>. (pp. 139 - 160). De Boek.<br>
+        [BC1]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Thomas B., Welch G., Dragicevic P., Elmqvist N., Irani P., Jansen Y., Schmalstieg D., Tabard A., ElSayed N., and Smith R. (2017)
+        <strong>Situated Analytics</strong>
+        In <i>Immersive Analytics</i>. (pp. 0-25). Springer-Verlag.<br>
+        [BC2]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3"><a href='https://hal.archives-ouvertes.fr/hal-01436498' target='_blank'>_</a> </td>
+    <td>
+        Bardram J., Esbensen M., and Tabard A. (2017)
+        <strong><a href='https://hal.archives-ouvertes.fr/hal-01436498'>Activity-Based Collaboration for Interactive Spaces</a></strong>
+        In <i>Collaboration Meets Interactive Spaces</i>. (pp. 233 - 257). Springer-Verlag.<br>
+        [BC3] [<a href='https://hal.archives-ouvertes.fr/hal-01436498' target='_blank'>pdf</a>]  [<a href='10.1007/978-3-319-45853-3\_11' target='_blank'>doi</a>] <br>
         
     </td>
     </tr>
@@ -454,9 +587,9 @@
     <tr>
     <td class="col-md-3"><a href='https://hal.inria.fr/hal-00881096' target='_blank'>_</a> </td>
     <td>
-        Kuntz P., Prié Y., and Tabard A. (2013)
-        <strong><a href='https://hal.inria.fr/hal-00881096'>Atelier Fouille visuelle de données temporelles</a></strong>
-        In <i>Atelier associé à IHM'13, 25e conférence francophone sur l'Interaction Homme-Machine</i>.<br>
+        Kuntz P., Pri\'e Y., and Tabard A. (2013)
+        <strong><a href='https://hal.inria.fr/hal-00881096'>Atelier Fouille visuelle de donn\'ees temporelles</a></strong>
+        In <i>Atelier associ\'e \`a IHM'13, 25e conf\'erence francophone sur l'Interaction Homme-Machine</i>.<br>
         [WS1] [<a href='https://hal.inria.fr/hal-00881096' target='_blank'>pdf</a>] <br>
         
     </td>
@@ -490,6 +623,37 @@
 </table>
 
 
+<h4> Domestic conferences <!--a href="https://github.com/aurelient/cv-py/blob/master/publications/conference-fr.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a--> </h4>
+
+<table class="table table-hover">
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Molinari G., Trannois M., Tabard A., and Lavou\'e E. (2016)
+        <strong>EMORE-L: un outil de reporting des \'emotions pour l'apprentissage \`a distance</strong>
+        In <i>Actes de la 28i\`eme conf\'erence francophone sur l'Interaction Homme-Machine</i>. (pp. 167-176).<br>
+        [FR1]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Lachand V., Serna A., Tabard A., and Marty J. (2016)
+        <strong>De l'efficacit\'e de visualisations indicielles ou symboliques pour la r\'egulation d'activit\'es collaboratives</strong>
+        In <i>Actes de la 28i\`eme conf\'erence francophone sur l'Interaction Homme-Machine</i>. (pp. 144-154). ACM.<br>
+        [FR2]<br>
+        
+    </td>
+    </tr>
+    
+
+</table>
+
+
 <h4> Tech Reports <!--a href="https://github.com/aurelient/cv-py/blob/master/publications/tech-reports.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a--> </h4>
 
 <table class="table table-hover">
@@ -497,10 +661,22 @@
     <tr>
     <td class="col-md-3">_</td>
     <td>
-        Kindberg T., Bardram J., Büttrich S., Esbensen M., Houben S., Khaled R., Pederson T., Perrone G., Hincapié-Ramos J., and Tabard A. (2010)
+        Letondal C., Tabard A., and Mackay W. (2019)
+        <strong>Quand tu l'as \'ecrit, tu l'as lu !</strong>
+        0. LRI research report 1526.<br>
+        [TR1]<br>
+        
+    </td>
+    </tr>
+    
+
+    <tr>
+    <td class="col-md-3">_</td>
+    <td>
+        Kindberg T., Bardram J., B\"uttrich S., Esbensen M., Houben S., Khaled R., Pederson T., Perrone G., Hincapi\'e-Ramos J., and Tabard A. (2010)
         <strong>Mesh Mobs - Virtually augmented crowds.</strong>
         TR-2011-146. IT University Technical Report Series.<br>
-        [TR1]<br>
+        [TR2]<br>
         
     </td>
     </tr>

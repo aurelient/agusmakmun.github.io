@@ -1,0 +1,213 @@
+name:
+  first: Aurélien
+  last: Tabard
+phone: ~+33~(0)6~98~54~35~33
+email: aurelien.tabard@univ-lyon1.fr
+pdf: /data/cv-2p.pdf
+src: https://www.tabard.fr
+url: "www.tabard.fr"
+social:
+  github: aurelient
+  twitter: aurelient
+  linkedin: aurelientabard
+
+# LaTeX formatting.
+style: classic # banking, casual, classic, oldstyle, or banking
+color: grey # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+
+order:
+  # - [interests, Research Interests]
+  - [research, Research Experience]
+  - [education, Education]
+  - [publications, Publications]
+  # - [teaching, Teaching Experience]
+  # - [projects, Projects]
+  - [honors, Honors \& Scholarships]
+  - [skills, Skills]
+  - [languages, Languages]
+  # - [activities, Activities]
+
+education:
+  - school: Université Paris-Sud (Paris XI)
+    location: Orsay, France
+    degree: Ph.D. in Computer Science
+    dates: 11/2009
+
+  - school: Université Pierre et Marie Curie
+    location: Paris, France
+    degree: Master in Computer and Information Science
+    dates: 09/2005
+    overallGPA: mention bien, i.e., with honors
+
+  - school: Université René Descartes
+    location: Paris, France
+    degree: Magistère in Applied Computer Science
+    # degree: B.S., Computer Science, Honors Scholar
+    dates: 09/2005
+    overallGPA: mention bien, i.e., with honors
+
+  - school: Université René Descartes
+    location: Paris, France
+    degree: DEUG in Mathematics applied to Social Sciences
+    location: Paris, France
+    dates: 09/2002
+
+research:
+  - place: Université Claude Bernard Lyon 1 \& CNRS
+    location: France
+    title: Associate Professor
+    advisor: Computer Science Laboratory (LIRIS)
+    dates: 09/2013 -- Present
+    # area: Machine learning and optimization
+
+  - place: Independent Consultant for Factor Product
+    location:  Munich, Germany
+    # title: Research Assistant
+    # advisor: Prof. Mahadev Satyanarayanan
+    dates: 07/2013
+    # area: Machine learning, computer vision, and mobile computing
+    # details:
+    #   - |
+    #       Face recognition with deep neural networks:
+    #       \url{http://github.com/cmusatyalab/openface}
+
+  - place: University of Munich (LMU)
+    location: Germany
+    title: Post doctoral fellow
+    advisor: Human Computer Interaction Group
+    dates: 03/2012 -- 06/2013
+    # area: Mobile computing, cyber-physical systems, and security
+    # details:
+    #   - Android malware detection research using
+    #     a distributed {\bf Actor-based Scala} system.
+    #   #- Modified the {\bf Android source} to provide non-standard logging
+    #   #  information for dynamic malware analysis.
+    #   - Manufacturing cyber-physical security research implemented
+    #     with {\bf VC\#} and {\bf Python}.
+    #   #- Developed {\bf VC\#} and {\bf Python} programs for a pilot study on
+    #   #  manufacturing cyber-physical security.
+    #   #- Assisted {\bf C++} and {\bf Make} development in {\bf Linux} for a
+    #   #  deployment optimization framework.
+
+  - place: IT University of Copenhagen
+    location: Denmark
+    title: Post doctoral fellow
+    advisor: pervasive Interaction Technology lab (pITlab)
+    dates: 10/2009 -- 03/2012
+    # area: Scientific computing, global/stochastic optimization, and bioinformatics
+    # details:
+    #   - Algorithm development for global and stochastic optimization using quasi-Newton
+    #     methods for {\bf parameter estimation} in
+    #     {\bf Fortran 95} and {\bf OpenMP}.
+    #   - Bioinformatics research on yeast cell modeling using
+    #     {\bf Fortran 95}, {\bf C++}, and {\bf Matlab}.
+
+
+  - place: INRIA and LRI (Université Paris-Sud \& CNRS)
+    location: Orsay, France
+    title: Ph.D. student, in|situ| group
+    advisor: Wendy E. Mackay
+    dates: 09/2005 -- 09/2009
+    # area: Heterogeneous compilers
+    # details:
+    #   - Compiler research on a heterogeneous system
+    #     on automatic {\bf OpenMP} to {\bf CUDA}
+    #     translation using {\bf C++} and the {\bf ROSE} compiler framework.
+    #   - Polyhedral loop optimization research to restructure
+    #     {\bf OpenCL} kernels for locality using {\bf LLVM} and {\bf Polly}.
+    #   #- '{\bf Scala} and {\bf Bash} development in {\bf Linux}.'
+
+
+teaching:
+  - semester: S2016
+    name: Distributed Systems
+    short: CMU 15-440/640
+    position: TA
+  - semester: S2013
+    name: Software Design and Data Structures
+    short: VT CS 2114
+    position: TA
+
+publications:
+  name: "A. Tabard"
+  categories:
+    - heading: Journal Articles
+      prefix: J
+      file: journal.bib
+    - heading: Conference Articles
+      prefix: CP
+      file: conference.bib
+    # - heading: Magazine Articles
+    #   prefix: M
+    #   file: magazine.bib
+    # - heading: Book Chapters
+    #   prefix: BC
+    #   file: chapters.bib
+    - heading: Workshop Articles and Demonstrations
+      prefix: WS
+      file: short.bib
+    - heading: Posters
+      prefix: P
+      file: posters.bib
+    - heading: Workshop Organization and Proceedings
+      prefix: WS
+      file: workshop-org.bib
+    - heading: Tech Reports
+      prefix: TR
+      file: tech-reports.bib
+
+
+skills:
+  - title: Programing
+    details: JavaScript, Python, Flash/Flex, JAVA (mostly Android SDK and Processing), C\# (and .Net), C.
+  - title: Web
+    details:  Node.js, Backbone, React, D3, Google App Engine.
+  - title: Electronics
+    details: Arduino, AVR Microcontrollers.
+  - title: Design tools
+    details: Adobe Illustrator, Adobe InDesign, Inkscape, Axure.
+  - title: Hardware prototyping
+    details: 3D printing and laser cutting.
+
+languages:
+  - title: French
+    details: native
+  - title: English
+    details: fluent
+  - title: Spanish
+    details: fluent
+  - title: German
+    details: conversational
+
+honors:
+  - title: Best Paper Award
+    year: ACM ITS’11
+  - title: Best Paper, Honorable Mention
+    year: ACM CHI'11
+  - title: Finalist of Mattel's Student Design Competition
+    year: 2006
+  - title: Ph.D. scholarship (bourse ministèrielle)
+    year: 2005
+
+
+projects:
+  website:
+    name: Personal Blog and Website
+    url: http://tabard.fr
+    details:
+      - Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll}
+          for static HTML generation.
+  # github:
+  #   name: GitHub Portfolio
+  #   url: http://github.com/aurelient
+  #   details:
+  #     - Hosts code samples, original source code, and patches for
+  #       open source projects.
+  #     - 25 original repositories, 5 forked repositories.
+
+# activities:
+#   - Honors Residential College, Virginia Tech, 2013 -- 2014
+#   - Hokies Pep Band, Virginia Tech, 2012 -- 2013

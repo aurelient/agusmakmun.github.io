@@ -1,0 +1,54 @@
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Visualisation de données sportives
+  url: visualisation-donnees-sportives.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Le Deep learning pour la Data Visualization
+  url: deep-learning-dataviz.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Les Glitches pour le design génératif de Data Visualization
+  url: glitches-dataviz.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Visualisation de mouvements 3D acquis par Motion Capture
+  url: motion-capture-amigo.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Prédiction de noms de fichiers
+  url: noms-fichiers-prediction.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Visualisation d'espaces paramétriques; application à l'analyse d'image
+  url: exploration-espaces-parametriques.html
+  advisor: Romain Vuillemot
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Résumé vidéo pour faciliter la reprise d'activités interrompues
+  url: resume-video-activite.html
+  advisor: Aurélien Tabard
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Visualisation pour faciliter la reprise d'activités interrompues
+  url: reprise-activite.html
+  advisor: Aurélien Tabard
+- posted-on: 2016-11-06
+  type: m1
+  active: y
+  title: Collaboration sur table tactile
+  url: collaboration-tacticle.html
+  advisor: Aurélien Tabard

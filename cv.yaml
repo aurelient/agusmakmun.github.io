@@ -12,8 +12,8 @@ social:
   linkedin: aurelientabard
 
 # LaTeX formatting.
-style: banking # casual, classic, oldstyle, or banking
-color: blue # blue, orange, green, red, purple, grey and black
+style: classic # banking, casual, classic, oldstyle, or banking
+color: grey # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
@@ -22,9 +22,9 @@ order:
   # - [interests, Research Interests]
   - [research, Research Experience]
   - [education, Education]
+  - [projects, Projects]
   - [publications, Publications]
   # - [teaching, Teaching Experience]
-  # - [projects, Projects]
   - [honors, Honors \& Scholarships]
   - [skills, Skills]
   - [languages, Languages]
@@ -143,9 +143,9 @@ publications:
     # - heading: Magazine Articles
     #   prefix: M
     #   file: magazine.bib
-    # - heading: Book Chapters
-    #   prefix: BC
-    #   file: chapters.bib
+    - heading: Book Chapters
+      prefix: BC
+      file: chapters.bib
     - heading: Workshop Articles and Demonstrations
       prefix: WS
       file: short.bib
@@ -155,6 +155,9 @@ publications:
     - heading: Workshop Organization and Proceedings
       prefix: WS
       file: workshop-org.bib
+    - heading: Domestic conferences
+      prefix: FR
+      file: conference-fr.bib
     - heading: Tech Reports
       prefix: TR
       file: tech-reports.bib
@@ -194,12 +197,39 @@ honors:
 
 
 projects:
-  website:
-    name: Personal Blog and Website
-    url: http://tabard.fr
+  - name: PLACED (ERA-NET)
+    url: http://placedproject.eu/
+    status: French coordinator
+    duration: 2017-2020
     details:
-      - Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll}
-          for static HTML generation.
+      - PLACED is an ERA-NET project in collaboration with Aarhus University, Chalmers University, Université de Lyon and the National School of Libraries in France (ENSSIB). The project aims to reinvent the services provided by city libraries. We will design and develop news types of place- and activity-centric digital services. Whereas library services typically focus on providing access to a collection of physical media, PLACED services support activities (e.g. hackathons, public readings, discussion groups) in the library. The groundbreaking aspect is that these services capture knowledge generated through these activities, make them a part of the library’s collection, and allow future library users to explore and access them.
+  - name: REPI (FUI)
+    status: co-PI
+    duration: 2016-2019
+    details:
+      - REPI is a FUI project. Our goal is to design and study how Orchestration and Activity Based Computing could be integrated into new platforms and services for high-schools.
+  - name: Activity-Enriched Computing (NSF)
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1319829
+    status: self-funded participant
+    duration: 2013-2017
+    details:
+      -  Although myriad extraordinary benefits have resulted from the web and expanding network connectivity, the intertwining of computers with virtually every aspect of life also brings a growing stream of interruptions. These interruptions and the fragmenting of activity they produce are increasingly accepted parts of modern life. A critical research challenge for human-centered computing is how to smooth and mitigate the impact of interruptions as well as assist in resuming interrupted activities. Meeting this challenge will require moving beyond the traditional document-centric view of information to address the complexity of real activity, its often fragmented history, and the need to access information arrayed across digital and paper media.
+      - This project will explore the design of systems that will allow people to exploit visual and episodic memory to benefit from the capture of the history and context of their computer-mediated activities. The heart of the project is rethinking the nature of data as stored in computers from being a state to being an inspectable activity history of interaction that can be presented to users. Activity-enriched computing has the potential to reshape how we use computers by creating systems that react to and are augmented by the history of past events, changing the computer environment to one in which history is always available to assist if needed. The primary scientific contributions will be to (a) develop an activity-enriched computing framework for designing a new class of systems in which history is a first-class element, (b) prototype and evaluate activity-enriched applications, and (c) extend theory and methods for representing, visualizing, and analyzing activity histories. Scientific contributions will include a novel activity-enriched computing framework that will (a) capture the rich detail of computer-mediated activity, (b) identify and make meaningful and useful episodes available, (c) link the worlds of paper and digital documents, and (d) exploit summarization and visual access mechanisms to support navigation of activity histories and ease resuming interrupted activities. The overarching objective is to lessen the impact of interruptions and aid reestablishment of context.
+
+  - name: Episteme (ANR)
+    status: participant
+    duration: 2014-2018
+    url: https://projet-episteme.org/
+    details:
+      - Épistémologie transdisciplinaire des technologies numériques pour la conception d’un nouvel environnement de catégorisation contributive et d’instruments contributifs de recherche, d’enseignement et de diffusion associés.
+  - name: Jenlab (ANR)
+    status: participant
+    duration: 2014-2018
+    url: http://jenlab.fr/
+    details:
+      - Apprentissage avec les Jeux Épistémiques Numériques (Usages-Technologies-Méthodologies).
+
+
   # github:
   #   name: GitHub Portfolio
   #   url: http://github.com/aurelient

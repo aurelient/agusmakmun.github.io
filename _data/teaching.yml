@@ -1,4 +1,64 @@
 
+- year: 2017-2018
+  titre: Gestion de projet et génie logiciel
+  title: Project Management and Software Engineering
+  shortname: M1if01
+  track: Master Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: 2017/mif01/
+
+- year: 2016-2017
+  titre: Data Visualization
+  title: Data Visualization
+  shortname: DataViz
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://lyondataviz.github.io/teaching/lyon1-m2/
+  details:
+    "<p>Covers general principles of visualization, theories, and design methods applied to these three broad data categories:</p>
+    <ul>
+    <li> Visualizing temporal data </li>
+    <li> Visualizing spatial data (maps) </li>
+    <li> Visualizing network data (graphs) </li>
+    </ul>"
+
+- year: 2016-2017
+  titre: UX Design
+  title: UX Design
+  shortname: INF03
+  track: Master Architecture de l'information
+  role: Responsable
+  display: y
+  hours: 30
+  link: http://etudes.ens-lyon.fr/course/view.php?id=1766
+  details:
+        "<p>Covers the whole User-Centered design cycle:</p>
+        <ul>
+        <li> User research </li>
+        <li> Sketching and prototyping </li>
+        <li> Quantitative and qualitative evaluation methods </li>
+        </ul>"
+
+- year: 2016-2017
+  titre: Web Avancé et Mobile
+  title: Advanced Web Development
+  shortname: MIF38
+  track: Master Informatique
+  role: Invité
+  display: y
+  hours:
+  link: http://liris.cnrs.fr/~lmedini/enseignement/MIF38/
+  details:
+    "<ul>
+    <li> Responsive Web Design </li>
+    <li> Reactive Programming for the Web </li>
+    <li> Offline and Native Web applications </li>
+    </ul>"
+
 - year: 2016-2017
   titre: Gestion de projet et génie logiciel
   title: Project Management and Software Engineering
@@ -13,12 +73,12 @@
 - year: 2016-2017
   titre: Génie logiciel
   title: Introduction to Software Engineering
-  shortname: M1if02
+  shortname: GL
   track: Master CCI
   role: Responsable
   display: y
   hours: 30
-  link: 2016/cci/gl
+  link: 2016/gl
   details:
     - Contexte, méthodes et processus + Processus Unifié
     - Introduction à UML
@@ -27,29 +87,23 @@
     - UML, Diagrammes Dynamiques
 
 - year: 2016-2017
-  titre: UX Design
-  title: UX Design
-  shortname: INF03
-  track: Master Architecture de l'information
+  titre: Intro SIG
+  shortname: Intro SIG
+  track: Master CCI
   role: Responsable
   display: y
   hours: 30
-  link:
-  # details:
+  link: 2016/sig
 
 - year: 2016-2017
-  titre: Web Avancé et Mobile
-  title: Advanced Web Development
-  shortname: MIF38
-  track: Master Informatique
-  role: Invité
+  titre: XML et Web
+  shortname: XML et Web
+  track: Master CCI
+  role: Responsable
   display: y
-  hours:
-  link: http://liris.cnrs.fr/~lmedini/enseignement/MIF38/
-  details:
-    - Responsive Web Design
-    - Reactive Programming for the Web
-    - Offline and Native Web applications
+  hours: 15
+  link: 2017/xmlweb
+
 
 
 # - year:

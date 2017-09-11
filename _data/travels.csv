@@ -1,10 +1,13 @@
 name,city,country,date,year,display
+,UC San Diego,US,Jun 01-30, 2017,y
+,Dagstuhl,DE,Apr 17-20, 2016,y
+PLACED,Copenhagen,DK,Mar 30, 2017,y
 VIS'16,Baltimore,US,Oct. 23-28, 2016,y
 AG AFIHM,Paris,FR,Jul 8, 2016,y
 REPI,Paris,FR,Jun 28, 2016,y
 ,Copenhagen,DK,Jun 22-25, 2016,n
-,Gothenburg,SE,Jun 15-22, 2016,y
-,Dagstuhl,DE,Jun 05-10, 2016,y
+,Gothenburg,SE,Jun 15-22, 2016,n
+,Dagstuhl,DE,Jun 05-10, 2016,n
 ,Aarhus,DK,May 22-24, 2016,n
 ,Saclay,FR,May 17, 2016,n
 ITS'15,Madeira,PT,Nov 15-18, 2015,n

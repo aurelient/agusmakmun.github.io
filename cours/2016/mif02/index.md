@@ -24,7 +24,7 @@ En cas de manque de place dans les salles [le cours sera retransmis sur youtube 
 - [Méthodes Agiles](/courses/2016/mif02/Agile.pdf) - 16/09
 - [Intervention de S.-D. Gouraud (Thales) sur les tests](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:sdgouraud-2014-10-24.pdf) - 19/09
 - [Design Patterns](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-patterns.pdf) (L. Médini) - 20/09
-- Intervention de J.R. Meunier de [Alteca](http://alteca.fr/) sur la [gestion de projet en entreprise]() - 21/09
+- Intervention de J.R. Meunier de [Alteca](http://alteca.fr/) sur la [gestion de projet en entreprise](/courses/2016/mif02/AltecaGestionProjets2016v1.pdf) - 21/09
 - [Méta-programmation](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-metaprogrammation.pdf) (L. Médini) - 23/09
 
 ## TPs
@@ -48,11 +48,14 @@ Supports distribués en début de TD.
 - Examen de fin de semestre : 50 %  
   * 30 - 40 % Questions de cours notamment sur la gestion de projet, mais aussi sur les stratégies de test et
   * 60 - 70 % Étude de cas, application des design patterns sur un cas de conception d'un système informatique (ce qui demandera une modélisation UML).
+  * Les supports de cours et de TD sont autorisés.
 - CC : 50 %  
   * TP (remise en route + set-up + patterns), voir le [TP Ré-ingénierie (design patterns)](tp-pattern.html) pour les détails.
 
 
+
 - [Sujet et correction de l'examen de génie logiciel (S1 2015-2016)](http://tabard.fr/courses/2015/mif17/MIF17-exam2015-session1-correction.pdf). *Attention, ne couvre pas des parties du cours de cette année, comme les tests, ou certains aspects de gestion de projet.*
+- [Sujet et correction de l'examen 2016-2017 (S1)](Mif02-Exam2016-session1-correction.pdf).
 
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF&amp;src=ribvbak6v0nvdgdsjnff4idpng%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FParis" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
