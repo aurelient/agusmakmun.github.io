@@ -1,10 +1,26 @@
 name,city,country,date,year,display
-,UC San Diego,US,Jun 01-30, 2017,y
-,Dagstuhl,DE,Apr 17-20, 2016,y
-PLACED,Copenhagen,DK,Mar 30, 2017,y
-VIS'16,Baltimore,US,Oct. 23-28, 2016,y
-AG AFIHM,Paris,FR,Jul 8, 2016,y
-REPI,Paris,FR,Jun 28, 2016,y
+,Dagstuhl,DE,Oct. 28-02, 2018,y
+,VIS,DE,Oct. 19-25, 2018,y
+MI2,Paris,, Oct. 19, 2017,y
+ANR,Paris, Oct. 1-2, 2018,y
+Lancaster,UK, Aug. 1-3, 2018,y
+MI2,Paris,, Jul. 12, 2017,y
+,CHI,CA,Apr. 21-26, 2018,y
+PLACED,Aarhus,DK, Apr. 14-16, 2018,y
+MI2,Paris,, Jan. 16, 2018,n
+MI2,Paris,, Dec. 19, 2017,n
+MI2,Paris,, Nov. 29, 2017,n
+MI2,Aix en Provence,, Oct. 18, 2017,n
+PLACED,Goteborg,SE, Oct. 09-11, 2017,n
+MI2,Paris,FR, Oct. 04, 2017,n
+Interact'17,Mumbai,India, Sep. 25-30, 2017,n
+SummerPIT,Aarhus,DK, Aug. 13-18, 2017,n
+,UC San Diego,US, June-July, 2017,n
+,Dagstuhl,DE,Apr 17-20, 2016,n
+PLACED,Copenhagen,DK,Mar 30, 2017,n
+VIS'16,Baltimore,US,Oct. 23-28, 2016,n
+AG AFIHM,Paris,FR,Jul 8, 2016,n
+REPI,Paris,FR,Jun 28, 2016,n
 ,Copenhagen,DK,Jun 22-25, 2016,n
 ,Gothenburg,SE,Jun 15-22, 2016,n
 ,Dagstuhl,DE,Jun 05-10, 2016,n

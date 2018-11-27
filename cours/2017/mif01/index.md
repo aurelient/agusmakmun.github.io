@@ -19,16 +19,16 @@ permalink: /cours/2017/mif01/
 Semaine 1:
 
 - [Contexte, méthodes et processus](/courses/2017/mif01/M1if01-C1-ProcessusMethodes.pdf) - 12/09
-- [Outils de build, gestion de dépendance](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:maven-forge-ic.pdf) 13/09
+- [Outils de build, gestion de dépendances](/courses/2017/mif01/M1if01-C2-maven-forge-ic.pdf) - 13/09
 - [Cas d'Utilisation textuels](/courses/2017/mif01/M1if01-C3-CU.pdf) - 14/09
 - [Méthodes Agiles](/courses/2017/mif01/M1if01-C4-Agile.pdf) - 15/09
 
 
 Semaine 2:
 
-- [Design Patterns](http://liris.cnrs.fr/lionel.medini/enseignement/MIF17/CM-patterns.pdf) - 18/09
-- [Intervention de S.-D. Gouraud (Thales) sur les tests](http://liris.cnrs.fr/ecoquery/dokuwiki/lib/exe/fetch.php?media=enseignement:sdgouraud-2014-10-24.pdf) - 20/09
-- [Éthique et informatique]() - 21/09
+- [Design Patterns](/courses/2017/mif01/M1if01-C5-DesignPatterns.pdf) - 18/09
+- [Intervention de S.-D. Gouraud (Thales) sur les tests](/courses/2017/mif01/M1if01-C6-Test.pdf) - 20/09
+- [Design Patterns (fin)](/courses/2017/mif01/M1if01-C5-DesignPatterns.pdf) + [Éthique et informatique](/courses/2017/mif01/M1if01-C7-Ethique.pdf) - 21/09
 - Intervention de J.R. Meunier de [Alteca](http://alteca.fr/) sur la [gestion de projet en entreprise](/courses/2017/mif01/AltecaGestionProjets2016v1.pdf) - 22/09
 
 
@@ -37,7 +37,8 @@ Semaine 2:
 - [TP Remise en route Java](tp-java.html)
 - [TP Maven-Git-Forge](tp-setup.html)
 - [TP Ré-ingénierie (design patterns)](tp-pattern.html)
-- [TP Test](tp-test.html)
+<!-- - [TP Test](tp-test.html) -->
+- [TP Test](https://docs.google.com/document/d/1urM4gm00oo9VqFTCrT6OSqi-U4uFyi7g8fky8ucSPZQ/)
 
 ## TDs
 Supports distribués en début de TD.
@@ -48,6 +49,7 @@ Supports distribués en début de TD.
 ## Modalités d'évalution
 
 - Examen de fin de semestre : 50 %  
+	* [Sujet et correction (session 1)](Mif01-Exam2017-session1-correction.pdf)
   * 30 - 40 % Questions de cours notamment sur la gestion de projet, mais aussi sur les stratégies de test, l’éthique, etc.
   * 60 - 70 % Étude de cas, application des design patterns sur un cas de conception d'un système informatique (ce qui demandera une modélisation UML).
   * Seules 5 feuilles A4 sont autorisées à l'examen. Leur contenu est libre. Elle peuvent être une sélection de transparents, ou manuscrites, recto-verso, avec une taille de caractère de votre choix.
@@ -56,8 +58,9 @@ Supports distribués en début de TD.
 
 
 
-- [Sujet et correction de l'examen de génie logiciel (S1 2015-2016)](http://tabard.fr/courses/2015/mif17/MIF17-exam2015-session1-correction.pdf). *Attention, ne couvre pas des parties du cours de cette année, comme les tests, ou certains aspects de gestion de projet.*
-- [Sujet et correction de l'examen 2016-2017 (S1)](Mif02-Exam2016-session1-correction.pdf).
+- [Sujet et correction de l'examen de génie logiciel ( 2015-2016)](http://tabard.fr/courses/2015/mif17/MIF17-exam2015-session1-correction.pdf). *Attention, ne couvre pas des parties du cours de cette année, comme les tests, ou certains aspects de gestion de projet.*
+- [Sujet et correction de l'examen 2016-2017 (Session 1)](Mif02-Exam2016-session1-correction.pdf).
+- [Sujet et correction de l'examen 2017-2018 (Session 1)](Mif01-Exam2017-session1-correction.pdf).
 
 
 ## Calendrier

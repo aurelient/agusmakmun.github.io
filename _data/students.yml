@@ -1,0 +1,41 @@
+# - posted-on: 2016-08-15
+#   type: archinfo
+#   active: y
+#   title: Visualisation d'activité personnelle
+#   keywords: visualization, Activity Based Computing
+#   desc: "Les interruptions font maintenant partie intégrante de notre activité.
+#   Plutôt que d'essayer de les éliminer, une approche alternative
+#   consiste à faciliter la reprise d'activité après une interruption."
+
+- name: Alix Ducros
+  active: y
+  type: phd
+  title: Situated Visualisation of Activity in Third Places
+  desc: "[PLACED project](http://placedproject.eu/). Co-supervised with Clemens Klokmose."
+
+- name: Mohamed Ez Zaouia
+  active: y
+  type: phd
+  title: Visualizing traces of online learners
+  desc: "Co-supervised with Elise Lavoué."
+
+- name: "[Valentin Lachand]()"
+  active: y
+  type: phd
+  title: Orchestration and Activity Centric Computing for Education
+  desc: "[REPI project](https://lachand.github.io). Co-supervised with Christine Michel."
+
+- name: "[Lili Tong](http://tonglili.net/)"
+  active: n
+  type: phd
+  title: Designing and Analyzing Collaborative Activities in Multi-Surface Environments.
+  desc: "Co-supervised with Audrey Serna."
+  jury:
+    – Stéphanie Buisine, Professeur, EI CESI Paris Nanterre, Rapporteur
+    – Nadine Couture, Professeur, ESTIA, Rapporteur
+    – Andres Lucero, Associate Professor, Aalto University, Examinateur
+    – Olivier Chapuis, Chargé de Recherche, CNRS, Examinateur
+    – Audrey Serna, Maître de Conférences, INSA-Lyon, Co-directeur
+    – Aurélien Tabard, Maître de Conférences, Université Lyon 1, Co-directeur
+    – Sébastien George, Professeur, Université du Maine, Co-directeur
+    – Youssef Amghar, Professeur, INSA-Lyon, Directeur

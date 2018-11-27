@@ -1,15 +1,50 @@
+- date: Oct. 2018
+  desc: Will present joint work with Simon Stusak on <a href="data/publications/PhysicalVariables.pdf">Variables for Data Physicalization</a> at the <a href="http://dataphys.org/workshops/vis18/">Toward a Design Language for Data Physicalization workshop</a> at VIS in Berlin.
+  display: y  
+- date: Sep. 2018
+  desc: I'm in sabbatical for a year :)
+- date: Aug. 2018
+  desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01863692/">Aiding Collaborative Reuse of Computational Notebooks with Annotated Cell Folding</a> with with <a href="http://adamrule.com/">Adam Rule</a>, Ian Drosos and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> got accepted to CSCW.
+  display: y  
+- date: Aug. 2018
+  desc: Our chapter on <a href="data/publications/SituatedAnalytics.pdf">Situated Analytics</a>, part of the Immersive Analytics book will be out soon.
+  display: y  
+- date: May. 2018
+  desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01833057">How teachers prepare for the unexpected, bright spots and breakdowns in enacting pedagogical plans in class </a> with Ghita Jalal, Valentin Lachand and Christin Michel, has been accepted to EC-TEL.
+  display: y  
+- date: Apr. 2018
+  desc: Valentin Lachand, Ghita Jalal, and Alix Ducros co-authored 3 late breaking work to be presented at CHI 2018.
+  display: y  
+- date: Feb. 2018
+  desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01676633/document">Exploration and Explanation in Computational Notebooks</a> with <a href="http://adamrule.com/">Adam Rule</a> and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> got accepted to CHI and received an honorable mention award!
+  display: y  
+- date: Feb. 2018
+  desc: We hosted the <a href="http://edusummit.ixda.org/"> Interaction Design Education Summit</a>, part of <a href="http://interaction18.ixda.org/">Interaction'18</a>. The week was a blast!
+  display: y
+- date: Dec. 2017
+  desc: New project with <a href="http://romain.vuillemot.net/">Romain Vuillemot</a> on multi-modal transport is starting! Welcoming <a href="">Alice Blot</a> to the project.
+  display: y
+- date: Nov. 2017
+  desc: Invited by <a href="http://designersethiques.org/">Designers Ethiques</a> and <a href="https://www.designersplus.fr/">Designers+</a> to a roundtable on the documentary <a href="http://ethicsfordesign.com/">Ethics for Design</a>
+  display: y
+- date: Sep. 2017
+  desc: Presented our paper with Lili Tong and Audrey Serna at Interact - <a href="https://hal.archives-ouvertes.fr/hal-01597913">Horizontal vs. Vertical - How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments".
+  display: y
 - date: June-July 2017
   desc: Visiting <a href="http://adamrule.com/">Adam Rule</a> and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> @UCSD's <a href="http://designlab.ucsd.edu/">Design Lab</a> and <a href="http://www.cogsci.ucsd.edu/">CogSci dep.</a>
   display: y
 - date: May. 2017
   desc: Francesco Vitale will present our CHI paper "<a href="https://hal.archives-ouvertes.fr/hal-01493415">High Costs and Small Benefits - A Field Study of How Users Experience Operating System Upgrades</a>", with Joanna McGrenere of the University of British Columbia, and Michel Beaudouin-Lafon and Wendy Mackay of Université Paris Sud and INRIA.
   display: y
+- date: May. 2017
+  desc: Lili Tong successfully defended her Ph.D.!
+  display: y
 - date: Apr. 2017
   desc: Lili Tong will present our paper with Audrey Serna, "Supporting Decision-Making Activities in Multi-Surface Learning Environments" at <a href="http://www.csedu.org/">CSEDU</a>.
   display: y
 - date: Mar. 2017
   desc: Our paper with Lili Tong and Audrey Serna cond. accepted to Interact - "Horizontal vs. Vertical - How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments".
-  display: y
+  display: n
 - date: Feb. 2017
   desc: It's official! <a href="http://interaction18.ixda.org/">Interaction'18</a> will be in Lyon, I'm part of the organization committee and actively preparing in the Education Summit.
   display: y
@@ -18,32 +53,32 @@
   display: y
 - date: Jan. 2017
   desc: Mohamed El Zaouia is starting his Ph.D. on activity resumption and learning dashboards. Supervised by E. Lavoué and I, in collaboration with <a href="https://www.speakplus.fr/en/learner/">speakplus.fr</a>.
-  display: y
+  display: n
 - date: Dec. 2016
   desc: Our ERA-NET project PLACED (PLace and Activity Centric Dynamic Library Services) was accepted!
-  display: y
+  display: n
 - date: Dec. 2016
   desc: Valentin Lachand is starting his Ph.D. on 3rd wave Activity Based Computing for education within the REPI project.
     He will be building activity based systems linking classrooms, library and home activities, and enable teachers to script activities and follow their unfolding.
-  display: y
+  display: n
 - date: Oct. 2016
   desc: Co-organizing the workshop <a href="http://livvil.github.io/workshop/">LIVVIL – Logging Interactive Visualizations and Visualizing Interaction Logs</a> at VIS'2016 with <a href="http://romain.vuillemot.net/">Romain Vuillemot</a>, <a href="http://jyby.eu/">Jeremy Boy</a>, <a href="http://charles.perin.free.fr/">Charles Perin</a> and <a href="http://www.aviz.fr/~fekete/">Jean-Daniel Fekete</a>.
-  display: y
+  display: n
 - date: Sept. 2016
   desc: Two articles accepted at <a href="http://ihm2016.afihm.org/">IHM'16</a>.
   display: n
 - date: Sep. 2016
   desc: <a href="http://www.tonglili.net/">Lili Tong</a> will be presenting our paper with Audrey Serna at <a href="http://mobilehci.acm.org/2016/">Mobile HCI</a>, <a href="data/publications/MobileHCI16.pdf">It's Not How You Stand, It's How You Move&#58; F-formations and Collaboration Dynamics in a Mobile Learning Game</a>.
-  display: y
+  display: n
 - date: Jun. 2016
   desc: AC for NordiCHI 2016.
-  display: y
+  display: n
 - date: May. 2016
   desc: FUI Grant accepted, on Activity Based Computing in teaching settings.
-  display: y
+  display: n
 - date: Feb. 2016
   desc: Two posters presented at <a href="https://cscw.acm.org/2016/">CSCW 2016</a> by Adam Rule and Karen Boyd, with Jim Hollan.
-  display: y
+  display: n
 - date: Jan. - Apr. 2016
   desc: Teaching UX Design in the <a href="https://www.fun-mooc.fr/courses/ENSDeLyon/14002S02/session02/about">French MOOC on Information Architecture </a>.
   display: n

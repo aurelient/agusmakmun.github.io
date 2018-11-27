@@ -6,7 +6,7 @@ permalink: /cours/2017/mif01/tp-test.html
 
 [Revenir a la page du cours](.)
 
-Par Emmanuel Coquery, Marie Lefevre, Lionel Médini et Aurélien Tabard, màj le 19/09/2016
+Par Augustin,
 
 ## Préambule
 Ce TP se fait en binôme. Le code est à rendre à la fin de la séance.

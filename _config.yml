@@ -46,6 +46,8 @@ urls:
       url: /cours/
     - text: Openings
       url: /openings/
+    - text: Students
+      url: /students/
     - text: Research tips
       url: /researchresources/
     - text: Feed

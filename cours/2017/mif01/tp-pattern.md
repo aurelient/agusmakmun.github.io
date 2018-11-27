@@ -7,32 +7,26 @@ permalink: /cours/2017/mif01/tp-pattern.html
 ## Objectif
   Il vous est demandé d'effectuer une ré-ingénierie d'un
   code existant en mettant en oeuvre les patrons de conception vus en cours.
-  Vous allez également concevoir une nouvelle application en utilisant
-  le formalisme UML et en exploitant au maximum les procédures de
-  génération de code et de rétro-conception.
 
 
-  <strong>Votre travail devra être rendu sous forme d'un projet déposé
-    sur la Forge Lyon 1, au plus tard le dimanche 2 octobre à 23h59.
-  </strong>
+**Votre travail devra être rendu sous forme d'un projet déposé
+    sur la Forge Lyon 1, au plus tard le dimanche 1 octobre à 23h59.**
 
-  Penser à remplir dès à présent le [questionnaire Spiral](http://spiralconnect.univ-lyon1.fr/webapp/assessment/assessmentAnswer.html?id=6031795&mode=answer) indiquant votre binome et votre dépôt forge.
+Penser à remplir dès à présent le [questionnaire de rendu](https://goo.gl/forms/l6618dqPz6yaMwdx2) indiquant votre binome et votre dépôt forge. Le dépot ne sera relevé qu'après la date de rendu.
 
 
 ## Déroulement
 
-Le travail peut être organisée en deux étapes :
+Le travail peut être organisé en deux étapes :
 
-  - la première sera une étape de ré-ingénierie (refactoring) du code de Poneymon utilisé au TP1, afin de mieux structurer le projet et le rendre plus modulaire.
+  - la première sera une étape de ré-ingénierie (refactoring) du code utilisé dans les premiers TP, afin de mieux structurer le projet et le rendre plus modulaire.
   - la seconde sera dédiée à l'extension du projet pour réaliser un jeu plus complet.
 
 ### Partie 1 : Ré-ingénierie du code
 
-Le code qui est fourni lors de la première séance est un package relativement fouillis. Toutes les classes sont dépendantes
-les unes des autres, les couches graphique et métier ne sont pas séparées.
+Le code fourni lors de la première séance est un package relativement fouillis. Toutes les classes sont dépendantes les unes des autres, les couches graphique et métier ne sont pas séparées.
 
-Il va vous falloir reconcevoir le code en appliquant les patrons de conception adéquats. Pour cela, vous devez réorganiser les éléments de
-l'application Poneymon. Entre autres, l'affichage des poneys doit être séparé de leur gestion (déplacements, stratégies, etc.).
+Il va vous falloir reconcevoir le code en appliquant les patrons de conception adéquats. Pour cela, vous devez réorganiser les éléments de l'application. Entre autres, l'affichage des joueurs doit être séparé de leur gestion (déplacements, stratégies, etc.).
 Les changements dans le modèle métier (déplacements) devront être répercutés dans l'affichage.
 
 L'utilisation d'entrées claviers ou souris entra&icirc;nera des changements dans le modèle métier en passant par un contrôleur.
@@ -44,28 +38,33 @@ démarrer, le mettre en pause, etc. On utilisera pour cela des widgets
 javafx tels que des boutons.
 
 
-Ensuite rajouter des obstacles qui seront soit statiques, soit qui se
-déplaceront en sens inverse des poneys. En cas de collision,
-les poneys perdent de la vitesse.
+Ajouter ensuite un mécanisme de contrôle des collisions en réfléchissant à son placement dans une architecture MVC. Les collisions peuvent être entre :
 
- - Ajouter un mécanisme de contrôle des collisions en réfléchissant à son placement dans une architecture MVC.
- - Rajouter ensuite la gestion d'une action utilisateur permettant de sauter par dessus un obstacle.
+ - une balle et un joueur – **ce cas doit être géré obligatoirement**
+ - une balle et les murs
+ - une balle et un obstacle
 
-Chaque poney avec une IA aura une tactique propre [(voir fin du TP remise en route Java)](/cours/2016/mif02/tp-java.html).
 
- - Adapter les stratégies pour que l'IA puisse éviter les collisions.
+Chaque joueur avec une IA aura une tactique propre qui consiste à :
+
+ - se déplacer aléatoirement
+ - suivre le joueur contrôlé par un humain
+
+Toute autre stratégie est possible.
+
  - Faites en sorte que la tactique puisse être changée en cours de partie
   (via une action utilisateur sur un bouton par exemple).
 
 
-Pour suivre et contrôler la course, on disposera de plusieurs vues:
+Pour suivre et contrôler le jeu, on disposera de plusieurs vues:
 
- - une présentant du terrain de course
+ - une présentant le terrain
  - une autre présentant le score
  - une autre les contrôles du jeu
 
 
-Rajouter des *tests* permettant de vérifier qu'un Poney ne part jamais en arrière, et un obstacle en avant.
+Au TP suivant nous rajouterons des *tests* permettant de vérifier qu'une balle ou un joueur ne sort jamais du terrain, et que les obstacles sont bien considérés.
+
 
 ### Conseils pour la réalisation
 
@@ -95,16 +94,23 @@ vous  pouvez utiliser n'importe quel outil UML pour tester les fonctionnalités 
 
 
 
-## Rendu du TP
+## Rendu du TP / projet
 
 ### Projet Forge et questionnaire
 
 Les projets peuvent être rendus en binômes. Les autres cours vont arriver
 très vite, il est conseillé d'avoir presque terminé le week-end suivant le TP.
 
+**Votre travail devra être rendu sous forme d'un projet déposé
+    sur la Forge Lyon 1, au plus tard le dimanche 1 octobre à 23h59.**
+
+Pensez à remplir dès à présent le [questionnaire de rendu](https://goo.gl/forms/l6618dqPz6yaMwdx2) indiquant votre binome et votre dépôt forge. Le dépot ne sera relevé qu'après la date de rendu.
+**Ajoutez Aurélien TABARD et Lionel MEDINI en tant que "reporters".**
+
+
 Votre dépôt sur la Forge devra contenir :
 
- - un fichier README.txt à la racine du projet
+ - un fichier **README.txt** (ou .md) à la racine du projet
  - un fichier maven pour le build du projet
  - les sources (fichiers Java)
  - la documentation javadoc de vos classes
@@ -115,8 +121,8 @@ Votre dépôt sur la Forge devra contenir :
  une motivation des choix d'architecture (et des patterns choisis),
  et leur explication en s'aidant de diagrammes appropriés et adaptés
  au degré de précision et au type d'explication.
- Donc des diagramme de classe, mais pas que cela, et pas de plat de spaghettis
- illisible représentant tout le code et généré automatiquement
+ Donc des diagramme de classe, mais pas que cela, et pas de plats de spaghettis
+ généré automatiquement représentant tout le code.
 
 
 Barême indicatif (sur 27, remis sur 20) :
@@ -141,8 +147,3 @@ Barême indicatif (sur 27, remis sur 20) :
 	- Les points suivants entrainent des malus (jusqu’à -5 pts)
 	  - Contenu et forme (voir ci-dessus)
 	  - Orthographe
-
-
-Dans la configuration de votre projet, ajoutez Aurélien TABARD et Lionel MEDINI en tant que "reporters".
-Remplissez également le questionnaire Spiral, ce qui permettra aux intervenants de récupérer automatiquement les projets :
-[Questionnaire Spiral](http://spiralconnect.univ-lyon1.fr/webapp/assessment/assessmentAnswer.html?id=6031795&mode=answer)

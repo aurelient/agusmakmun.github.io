@@ -107,22 +107,24 @@
         {% endif %}
 
 
-        <!-- Piwik -->
+
+
+        <!-- Matomo -->
         <script type="text/javascript">
           var _paq = _paq || [];
-          // tracker methods like "setCustomDimension" should be called before "trackPageView"
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
           _paq.push(['trackPageView']);
           _paq.push(['enableLinkTracking']);
           (function() {
-            var u="//tabard.fr/piwik/";
+            var u="https://tabard.fr/piwik/";
             _paq.push(['setTrackerUrl', u+'piwik.php']);
             _paq.push(['setSiteId', '1']);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
           })();
         </script>
-        <noscript><p><img src="//tabard.fr/piwik/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
-        <!-- End Piwik Code -->
+        <!-- End Matomo Code -->
+
     </head>
 
     <body>
@@ -170,7 +172,9 @@
               <ul class="minor">
                 {% for travel in site.data.travels %}{% if travel.display == 'y' %}
                 <li>{% if travel.name %}{{ travel.name }},{% endif %}
-                  {{ travel.city }}, {{ travel.country }}, {{ travel.date }}, {{ travel.year }}
+                  {% if travel.city %}{{ travel.city }},{% endif %}
+                  {% if travel.country %}{{ travel.country }},{% endif %}
+				  {{ travel.date }}, {{ travel.year }}
                 </li>{% endif %}{% endfor %}
               </ul>
               </div>

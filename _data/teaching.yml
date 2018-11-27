@@ -1,3 +1,39 @@
+- year: 2017-2018
+  titre: Web Avancé et Mobile
+  title: Advanced Web Development
+  shortname: M1if13
+  track: Master Informatique
+  role: Responsable
+  display: y
+  hours: 15
+  link: https://aurelient.github.io/mif13/2018/
+
+- year: 2017-2018
+  titre: XML et Web
+  shortname: XML et Web
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 15
+  link: 2018/xmlweb
+
+- year: 2017-2018
+  titre: Data Visualization
+  title: Data Visualization
+  shortname: DataViz
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://lyondataviz.github.io/teaching/lyon1-m2/
+  details:
+    "<p>Covers general principles of visualization, theories, and design methods applied to these three broad data categories:</p>
+    <ul>
+    <li> Visualizing temporal data </li>
+    <li> Visualizing spatial data (maps) </li>
+    <li> Visualizing network data (graphs) </li>
+    </ul>"
+
 
 - year: 2017-2018
   titre: Gestion de projet et génie logiciel
@@ -8,6 +44,36 @@
   display: y
   hours: 30
   link: 2017/mif01/
+
+
+- year: 2017-2018
+  titre: Génie logiciel
+  title: Introduction to Software Engineering
+  shortname: GL
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 30
+  link: 2017/gl
+  details:
+    - Contexte, méthodes et processus + Processus Unifié
+    - Introduction à UML
+    - UML, Cas d'Utilisation
+    - UML, Diagrammes Statiques
+    - UML, Diagrammes Dynamiques
+
+
+- year: 2017-2018
+  titre: Intro SIG
+  shortname: Intro SIG
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 30
+  link: 2017/sig
+
+
+
 
 - year: 2016-2017
   titre: Data Visualization
