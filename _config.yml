@@ -4,12 +4,23 @@ author: Aurélien Tabard
 github: https://github.com/aurelient
 about: Associate Professor
 affiliation:
-    name: LIRIS, Université Lyon 1 & CNRS
-    link: "http://liris.cnrs.fr/"
+  name: LIRIS, Université Lyon 1 & CNRS
+  link: "http://liris.cnrs.fr/"
 # disqus_shortname: stackproblems
 # google_analytics: UA-XXXXXXXX-Y
 
-exclude: [build, templates, requirements.txt, README.md, Makefile, generate.py, cv.yaml, Gemfile, LICENSE*]
+exclude:
+  [
+    build,
+    templates,
+    requirements.txt,
+    README.md,
+    Makefile,
+    generate.py,
+    cv.yaml,
+    Gemfile,
+    LICENSE*,
+  ]
 
 enableTags: true
 tagarray: []
@@ -20,38 +31,37 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-envelope-o
-      link: "mailto:aurelien@tabard.fr"
-    - icon: fa-twitter
-      link: "https://twitter.com/aurelient"
-    - icon: fa-github
-      link: "https://github.com/aurelient/"
-    - icon: fa-wordpress
-      link: "http://www.tabard.fr/blog"
-    - icon: fa-skype
-      link: "skype:aurelientabard?call"
-
+  - icon: fa-envelope-o
+    link: "mailto:aurelien@tabard.fr"
+  - icon: fa-twitter
+    link: "https://twitter.com/aurelient"
+  - icon: fa-github
+    link: "https://github.com/aurelient/"
+  - icon: fa-wordpress
+    link: "http://www.tabard.fr/blog"
+  - icon: fa-skype
+    link: "skype:aurelientabard?call"
 
 share:
   twitter_username: aurelient
 
 urls:
-    - text: CV
-      url: /cv/
-      text-2: "#publications"
-      url-2: /cv/#Publications
-    # - text: Projects
-    #   url: /projects/
-    - text: Cours
-      url: /cours/
-    - text: Openings
-      url: /openings/
-    - text: Students
-      url: /students/
-    - text: Research tips
-      url: /researchresources/
-    - text: Feed
-      url: /feed.xml
+  - text: CV
+    url: /cv/
+    text-2: "#publications"
+    url-2: /cv/#Publications
+  # - text: Projects
+  #   url: /projects/
+  - text: Cours
+    url: /cours/
+  - text: Openings
+    url: /openings/
+  - text: Students
+    url: /students/
+  - text: Research tips
+    url: /researchresources/
+  - text: Feed
+    url: /feed.xml
 
 url: "http://tabard.fr"
 baseurl: ""
@@ -59,6 +69,6 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist

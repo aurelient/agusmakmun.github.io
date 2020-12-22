@@ -1,56 +1,96 @@
+- date: Nov. 2020
+  desc: <a href="https://valentin.lachand.net/these">Valentin Lachand defended his PhD thesis</a>, you can watch the presentation <a href="https://valentin.lachand.net/these">here</a>.
+  display: y  
+- date: Sep. 2020
+  desc: <a href="https://www.univ-lyon3.fr/ez-zaouia-mohamed-53">Mohamed Ez-zaouia defended his PhD thesis, Factors for dashboards design and use to inform teachers’ practices in situ.</a>.
+  display: y  
+- date: Aug. 2020
+  desc: 'AC for ISS 2020'
+  display: y  
+- date: June. 2020
+  desc: 'Two pictorials accepted at DIS (1) <a href="https://hal.archives-ouvertes.fr/hal-02869220/">Tricky Design Probes: Triggering Reflection on Design Research Methods in Service Design</a> with Anaëlle Beignon, Emeline Brulé, and Jean-Baptiste Joatton. and (2) <a href="https://hal.archives-ouvertes.fr/hal-02869225/">Putting Down Roots: Exploring the Placeness of Virtual Collections in Public Libraries</a> with Daisy Yoo, Peter Dalsgaard, Alix Ducros, Eva Eriksson, Clemens Nylandsted Klokmose'
+  display: y  
+- date: Apr. 2020
+  desc: <a href="https://scholar.google.com/citations?user=m3BSoXoAAAAJ">Daisy Yoo</a> will present joint work <a href="">on Computational Alternative Vignettes</a> conducted in the PLACED project at CHI 2020.
+  display: y  
+- date: Feb. 2020
+  desc: Two papers with Mohamed Ezzaouia and Elise Lavoué on learning dasboards are out, <a href="https://doi.org/10.1016/j.ijhcs.2020.102411">Emodash (IJHCS)</a> and <a href="https://hal.archives-ouvertes.fr/hal-02491088v1">Prodash</a> (CSEDU).
+  display: y  
+- date: Nov. 2019
+  desc: <a href="https://www.krlx.fr/">Alix Ducros</a> will present <a href="https://hal.archives-ouvertes.fr/hal-02294757/">our work with Clemens Klokmose on Situated Sketching and Enactment at ISS 2019</a>.
+  display: y  
+- date: Oct. 2019
+  desc: Participating to <a href="http://imaginascience.mystrikingly.com/">Imagina Science</a> roundtable on data and art.
+  display: y  
+- date: Sept. 2019
+  desc: <a href="https://valentin.lachand.net/">Valentin Lachand</a> presented <a href="https://hal.archives-ouvertes.fr/hal-02294757">Toccata, Supporting Classroom Orchestration with Activity Based Computing at Ubicomp 2019 in London</a>.
+  display: y  
+- date: Sept. 2019
+  desc: Launching two new master-level teaching units Ubicomp Web and Project.
+  display: y  
+- date: June 2019
+  desc: <a href="http://personal.psu.edu/nzs162/">Na Sun</a> presented our work on <a href="https://hal.archives-ouvertes.fr/hal-02053173">the role of Emojis in Peer-Feedback at CSCL 2019</a>.
+  display: y  
+- date: June 2019
+  desc: Attending the <a href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=19232">Dagstuhl seminar on Ubicomp Education</a>.
+  display: y  
+- date: May 2019
+  desc: Staying at the University of Aarhus for a month.
+  display: y  
 - date: Oct. 2018
   desc: Will present joint work with Simon Stusak on <a href="data/publications/PhysicalVariables.pdf">Variables for Data Physicalization</a> at the <a href="http://dataphys.org/workshops/vis18/">Toward a Design Language for Data Physicalization workshop</a> at VIS in Berlin.
-  display: y  
+  display: n  
 - date: Sep. 2018
   desc: I'm in sabbatical for a year :)
+  display: n
 - date: Aug. 2018
   desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01863692/">Aiding Collaborative Reuse of Computational Notebooks with Annotated Cell Folding</a> with with <a href="http://adamrule.com/">Adam Rule</a>, Ian Drosos and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> got accepted to CSCW.
-  display: y  
+  display: n  
 - date: Aug. 2018
-  desc: Our chapter on <a href="data/publications/SituatedAnalytics.pdf">Situated Analytics</a>, part of the Immersive Analytics book will be out soon.
-  display: y  
+  desc: Our chapter on <a href="data/publications/SituatedAnalytics.pdf">Situated Analytics</a>, part of the Immersive Analytics book is out.
+  display: n  
 - date: May. 2018
   desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01833057">How teachers prepare for the unexpected, bright spots and breakdowns in enacting pedagogical plans in class </a> with Ghita Jalal, Valentin Lachand and Christin Michel, has been accepted to EC-TEL.
-  display: y  
+  display: n  
 - date: Apr. 2018
   desc: Valentin Lachand, Ghita Jalal, and Alix Ducros co-authored 3 late breaking work to be presented at CHI 2018.
-  display: y  
+  display: n  
 - date: Feb. 2018
   desc: Our paper <a href="https://hal.archives-ouvertes.fr/hal-01676633/document">Exploration and Explanation in Computational Notebooks</a> with <a href="http://adamrule.com/">Adam Rule</a> and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> got accepted to CHI and received an honorable mention award!
-  display: y  
+  display: n  
 - date: Feb. 2018
   desc: We hosted the <a href="http://edusummit.ixda.org/"> Interaction Design Education Summit</a>, part of <a href="http://interaction18.ixda.org/">Interaction'18</a>. The week was a blast!
-  display: y
+  display: n
 - date: Dec. 2017
   desc: New project with <a href="http://romain.vuillemot.net/">Romain Vuillemot</a> on multi-modal transport is starting! Welcoming <a href="">Alice Blot</a> to the project.
-  display: y
+  display: n
 - date: Nov. 2017
   desc: Invited by <a href="http://designersethiques.org/">Designers Ethiques</a> and <a href="https://www.designersplus.fr/">Designers+</a> to a roundtable on the documentary <a href="http://ethicsfordesign.com/">Ethics for Design</a>
-  display: y
+  display: n
 - date: Sep. 2017
   desc: Presented our paper with Lili Tong and Audrey Serna at Interact - <a href="https://hal.archives-ouvertes.fr/hal-01597913">Horizontal vs. Vertical - How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments".
-  display: y
+  display: n
 - date: June-July 2017
   desc: Visiting <a href="http://adamrule.com/">Adam Rule</a> and <a href="http://hci.ucsd.edu/hollan/">Jim Hollan</a> @UCSD's <a href="http://designlab.ucsd.edu/">Design Lab</a> and <a href="http://www.cogsci.ucsd.edu/">CogSci dep.</a>
-  display: y
+  display: n
 - date: May. 2017
   desc: Francesco Vitale will present our CHI paper "<a href="https://hal.archives-ouvertes.fr/hal-01493415">High Costs and Small Benefits - A Field Study of How Users Experience Operating System Upgrades</a>", with Joanna McGrenere of the University of British Columbia, and Michel Beaudouin-Lafon and Wendy Mackay of Université Paris Sud and INRIA.
-  display: y
+  display: n
 - date: May. 2017
   desc: Lili Tong successfully defended her Ph.D.!
-  display: y
+  display: n
 - date: Apr. 2017
   desc: Lili Tong will present our paper with Audrey Serna, "Supporting Decision-Making Activities in Multi-Surface Learning Environments" at <a href="http://www.csedu.org/">CSEDU</a>.
-  display: y
+  display: n
 - date: Mar. 2017
   desc: Our paper with Lili Tong and Audrey Serna cond. accepted to Interact - "Horizontal vs. Vertical - How the Orientation of a Large Interactive Surface Impacts Collaboration in Multi-Surface Environments".
   display: n
 - date: Feb. 2017
   desc: It's official! <a href="http://interaction18.ixda.org/">Interaction'18</a> will be in Lyon, I'm part of the organization committee and actively preparing in the Education Summit.
-  display: y
+  display: n
 - date: Jan. 2017
   desc: Our book chapter with J. Bardram and M. Esbensen - "<a href="https://hal.archives-ouvertes.fr/hal-01436498">Activity-Based Collaboration for Interactive Spaces</a>", is published.
-  display: y
+  display: n
 - date: Jan. 2017
   desc: Mohamed El Zaouia is starting his Ph.D. on activity resumption and learning dashboards. Supervised by E. Lavoué and I, in collaboration with <a href="https://www.speakplus.fr/en/learner/">speakplus.fr</a>.
   display: n

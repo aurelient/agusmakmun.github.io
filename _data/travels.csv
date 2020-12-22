@@ -1,12 +1,13 @@
-name,city,country,date,year,display
-,Dagstuhl,DE,Oct. 28-02, 2018,y
-,VIS,DE,Oct. 19-25, 2018,y
-MI2,Paris,, Oct. 19, 2017,y
-ANR,Paris, Oct. 1-2, 2018,y
-Lancaster,UK, Aug. 1-3, 2018,y
-MI2,Paris,, Jul. 12, 2017,y
-,CHI,CA,Apr. 21-26, 2018,y
-PLACED,Aarhus,DK, Apr. 14-16, 2018,y
+name,city,country,date,near,display
+Staying Home,,,, 2020,y
+,Dagstuhl,DE,Oct. 28-02, 2018,n
+,VIS,DE,Oct. 19-25, 2018,n
+MI2,Paris,, Oct. 19, 2017,n
+ANR,Paris, Oct. 1-2, 2018,n
+Lancaster,UK, Aug. 1-3, 2018,n
+MI2,Paris,, Jul. 12, 2017,n
+,CHI,CA,Apr. 21-26, 2018,n
+PLACED,Aarhus,DK, Apr. 14-16, 2018,n
 MI2,Paris,, Jan. 16, 2018,n
 MI2,Paris,, Dec. 19, 2017,n
 MI2,Paris,, Nov. 29, 2017,n

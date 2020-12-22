@@ -1,3 +1,113 @@
+- year: 2020-2021
+  titre: Technologies Web synchrones et multi-dispositifs
+  shortname: TIW8
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 28
+  link: https://aurelient.github.io/tiw8/2020/
+
+- year: 2020-2021
+  titre: IHM x IA
+  shortname: ihmxia
+  track: Master 2 IA
+  role: Responsable
+  display: y
+  hours: 15
+  link: https://docs.google.com/document/d/1QdiaS4kJ5U5JW50iB9Lm7ilvLfIzdWCNY9EdfcrrmoM/edit?usp=sharing
+
+- year: 2020-2021
+  titre: Data Visualization
+  title: Data Visualization
+  shortname: DataViz
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://lyondataviz.github.io/teaching/lyon1-m2/
+
+- year: 2020-2021
+  titre: Génie logiciel / UML
+  title: Introduction to Software Engineering
+  shortname: GL
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 30
+  link: 2020/gl
+
+- year: 2020-2021
+  titre: Intro au Web
+  shortname: Intro au Web
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 15
+  link: 2021/web
+
+- year: 2020-2021
+  titre: Projet Transversal
+  shortname: mif10
+  track: Master 1 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://forge.univ-lyon1.fr/m1if10-projet-transversal/m1if10-projet-transversal-2020/
+
+- year: 2019-2020
+  titre: Technologies Web synchrones et multi-dispositifs
+  shortname: TIW8
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 28
+  link: https://aurelient.github.io/tiw8/2019/
+
+- year: 2019-2020
+  titre: Projet Transversal
+  shortname: mif10
+  track: Master 1 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://forge.univ-lyon1.fr/aurelien.tabard/m1if10-projet-transversal-2019/
+
+- year: 2019-2020
+  titre: Data Visualization
+  title: Data Visualization
+  shortname: DataViz
+  track: Master 2 Informatique
+  role: Responsable
+  display: y
+  hours: 30
+  link: https://lyondataviz.github.io/teaching/lyon1-m2/
+  details:
+    "<p>Covers general principles of visualization, theories, and design methods applied to these three broad data categories:</p>
+    <ul>
+    <li> Visualizing temporal data </li>
+    <li> Visualizing spatial data (maps) </li>
+    <li> Visualizing network data (graphs) </li>
+    </ul>"
+
+- year: 2019-2020
+  titre: Génie logiciel
+  title: Introduction to Software Engineering
+  shortname: GL
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 30
+  link: 2019/gl
+
+- year: 2019-2020
+  titre: XML et Web
+  shortname: XML et Web
+  track: Master CCI
+  role: Responsable
+  display: y
+  hours: 15
+  link: 2020/xmlweb
+
 - year: 2017-2018
   titre: Web Avancé et Mobile
   title: Advanced Web Development
@@ -34,7 +144,6 @@
     <li> Visualizing network data (graphs) </li>
     </ul>"
 
-
 - year: 2017-2018
   titre: Gestion de projet et génie logiciel
   title: Project Management and Software Engineering
@@ -45,7 +154,6 @@
   hours: 30
   link: 2017/mif01/
 
-
 - year: 2017-2018
   titre: Génie logiciel
   title: Introduction to Software Engineering
@@ -55,13 +163,6 @@
   display: y
   hours: 30
   link: 2017/gl
-  details:
-    - Contexte, méthodes et processus + Processus Unifié
-    - Introduction à UML
-    - UML, Cas d'Utilisation
-    - UML, Diagrammes Statiques
-    - UML, Diagrammes Dynamiques
-
 
 - year: 2017-2018
   titre: Intro SIG
@@ -71,9 +172,6 @@
   display: y
   hours: 30
   link: 2017/sig
-
-
-
 
 - year: 2016-2017
   titre: Data Visualization
@@ -101,13 +199,12 @@
   display: y
   hours: 30
   link: http://etudes.ens-lyon.fr/course/view.php?id=1766
-  details:
-        "<p>Covers the whole User-Centered design cycle:</p>
-        <ul>
-        <li> User research </li>
-        <li> Sketching and prototyping </li>
-        <li> Quantitative and qualitative evaluation methods </li>
-        </ul>"
+  details: "<p>Covers the whole User-Centered design cycle:</p>
+    <ul>
+    <li> User research </li>
+    <li> Sketching and prototyping </li>
+    <li> Quantitative and qualitative evaluation methods </li>
+    </ul>"
 
 - year: 2016-2017
   titre: Web Avancé et Mobile
@@ -118,8 +215,7 @@
   display: y
   hours:
   link: http://liris.cnrs.fr/~lmedini/enseignement/MIF38/
-  details:
-    "<ul>
+  details: "<ul>
     <li> Responsive Web Design </li>
     <li> Reactive Programming for the Web </li>
     <li> Offline and Native Web applications </li>
@@ -145,12 +241,6 @@
   display: y
   hours: 30
   link: 2016/gl
-  details:
-    - Contexte, méthodes et processus + Processus Unifié
-    - Introduction à UML
-    - UML, Cas d'Utilisation
-    - UML, Diagrammes Statiques
-    - UML, Diagrammes Dynamiques
 
 - year: 2016-2017
   titre: Intro SIG
@@ -169,9 +259,6 @@
   display: y
   hours: 15
   link: 2017/xmlweb
-
-
-
 # - year:
 #   titre:
 #   title:
